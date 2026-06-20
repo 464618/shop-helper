@@ -1,0 +1,312 @@
+[
+  {
+    "id": "action-001",
+    "action_name": "降价",
+    "action_type": "定价",
+    "purpose": "通过降价改善定价相关业务表现。",
+    "affected_metrics": [
+      "销售额",
+      "转化率",
+      "毛利率"
+    ],
+    "possible_positive_effects": "可能提升曝光、成交、库存消化或用户体验。",
+    "possible_risks": "可能带来毛利下降、售后增加、库存压力或投产比下降。",
+    "suitable_scenarios": "适合在定价环节出现明确问题或机会时使用。",
+    "analyst_view": "分析师要观察降价前后的指标变化，并区分短期拉动和长期质量。",
+    "example": "例如执行降价后，观察销售额、净销售额、毛利率和售后是否同步变化。"
+  },
+  {
+    "id": "action-002",
+    "action_name": "涨价",
+    "action_type": "定价",
+    "purpose": "通过涨价改善定价相关业务表现。",
+    "affected_metrics": [
+      "销售额",
+      "转化率",
+      "毛利率"
+    ],
+    "possible_positive_effects": "可能提升曝光、成交、库存消化或用户体验。",
+    "possible_risks": "可能带来毛利下降、售后增加、库存压力或投产比下降。",
+    "suitable_scenarios": "适合在定价环节出现明确问题或机会时使用。",
+    "analyst_view": "分析师要观察涨价前后的指标变化，并区分短期拉动和长期质量。",
+    "example": "例如执行涨价后，观察销售额、净销售额、毛利率和售后是否同步变化。"
+  },
+  {
+    "id": "action-003",
+    "action_name": "投流",
+    "action_type": "投流",
+    "purpose": "通过投流改善投流相关业务表现。",
+    "affected_metrics": [
+      "销售额",
+      "转化率",
+      "毛利率"
+    ],
+    "possible_positive_effects": "可能提升曝光、成交、库存消化或用户体验。",
+    "possible_risks": "可能带来毛利下降、售后增加、库存压力或投产比下降。",
+    "suitable_scenarios": "适合在投流环节出现明确问题或机会时使用。",
+    "analyst_view": "分析师要观察投流前后的指标变化，并区分短期拉动和长期质量。",
+    "example": "例如执行投流后，观察销售额、净销售额、毛利率和售后是否同步变化。"
+  },
+  {
+    "id": "action-004",
+    "action_name": "停止投流",
+    "action_type": "投流",
+    "purpose": "通过停止投流改善投流相关业务表现。",
+    "affected_metrics": [
+      "销售额",
+      "转化率",
+      "毛利率"
+    ],
+    "possible_positive_effects": "可能提升曝光、成交、库存消化或用户体验。",
+    "possible_risks": "可能带来毛利下降、售后增加、库存压力或投产比下降。",
+    "suitable_scenarios": "适合在投流环节出现明确问题或机会时使用。",
+    "analyst_view": "分析师要观察停止投流前后的指标变化，并区分短期拉动和长期质量。",
+    "example": "例如执行停止投流后，观察销售额、净销售额、毛利率和售后是否同步变化。"
+  },
+  {
+    "id": "action-005",
+    "action_name": "做活动",
+    "action_type": "活动",
+    "purpose": "通过做活动改善活动相关业务表现。",
+    "affected_metrics": [
+      "销售额",
+      "转化率",
+      "毛利率"
+    ],
+    "possible_positive_effects": "可能提升曝光、成交、库存消化或用户体验。",
+    "possible_risks": "可能带来毛利下降、售后增加、库存压力或投产比下降。",
+    "suitable_scenarios": "适合在活动环节出现明确问题或机会时使用。",
+    "analyst_view": "分析师要观察做活动前后的指标变化，并区分短期拉动和长期质量。",
+    "example": "例如执行做活动后，观察销售额、净销售额、毛利率和售后是否同步变化。"
+  },
+  {
+    "id": "action-006",
+    "action_name": "满减",
+    "action_type": "活动",
+    "purpose": "通过满减改善活动相关业务表现。",
+    "affected_metrics": [
+      "销售额",
+      "转化率",
+      "毛利率"
+    ],
+    "possible_positive_effects": "可能提升曝光、成交、库存消化或用户体验。",
+    "possible_risks": "可能带来毛利下降、售后增加、库存压力或投产比下降。",
+    "suitable_scenarios": "适合在活动环节出现明确问题或机会时使用。",
+    "analyst_view": "分析师要观察满减前后的指标变化，并区分短期拉动和长期质量。",
+    "example": "例如执行满减后，观察销售额、净销售额、毛利率和售后是否同步变化。"
+  },
+  {
+    "id": "action-007",
+    "action_name": "优惠券",
+    "action_type": "活动",
+    "purpose": "通过优惠券改善活动相关业务表现。",
+    "affected_metrics": [
+      "销售额",
+      "转化率",
+      "毛利率"
+    ],
+    "possible_positive_effects": "可能提升曝光、成交、库存消化或用户体验。",
+    "possible_risks": "可能带来毛利下降、售后增加、库存压力或投产比下降。",
+    "suitable_scenarios": "适合在活动环节出现明确问题或机会时使用。",
+    "analyst_view": "分析师要观察优惠券前后的指标变化，并区分短期拉动和长期质量。",
+    "example": "例如执行优惠券后，观察销售额、净销售额、毛利率和售后是否同步变化。"
+  },
+  {
+    "id": "action-008",
+    "action_name": "秒杀",
+    "action_type": "活动",
+    "purpose": "通过秒杀改善活动相关业务表现。",
+    "affected_metrics": [
+      "销售额",
+      "转化率",
+      "毛利率"
+    ],
+    "possible_positive_effects": "可能提升曝光、成交、库存消化或用户体验。",
+    "possible_risks": "可能带来毛利下降、售后增加、库存压力或投产比下降。",
+    "suitable_scenarios": "适合在活动环节出现明确问题或机会时使用。",
+    "analyst_view": "分析师要观察秒杀前后的指标变化，并区分短期拉动和长期质量。",
+    "example": "例如执行秒杀后，观察销售额、净销售额、毛利率和售后是否同步变化。"
+  },
+  {
+    "id": "action-009",
+    "action_name": "预售",
+    "action_type": "商品",
+    "purpose": "通过预售改善商品相关业务表现。",
+    "affected_metrics": [
+      "库存周转率",
+      "售后率"
+    ],
+    "possible_positive_effects": "可能提升曝光、成交、库存消化或用户体验。",
+    "possible_risks": "可能带来毛利下降、售后增加、库存压力或投产比下降。",
+    "suitable_scenarios": "适合在商品环节出现明确问题或机会时使用。",
+    "analyst_view": "分析师要观察预售前后的指标变化，并区分短期拉动和长期质量。",
+    "example": "例如执行预售后，观察销售额、净销售额、毛利率和售后是否同步变化。"
+  },
+  {
+    "id": "action-010",
+    "action_name": "清仓",
+    "action_type": "库存",
+    "purpose": "通过清仓改善库存相关业务表现。",
+    "affected_metrics": [
+      "库存周转率",
+      "售后率"
+    ],
+    "possible_positive_effects": "可能提升曝光、成交、库存消化或用户体验。",
+    "possible_risks": "可能带来毛利下降、售后增加、库存压力或投产比下降。",
+    "suitable_scenarios": "适合在库存环节出现明确问题或机会时使用。",
+    "analyst_view": "分析师要观察清仓前后的指标变化，并区分短期拉动和长期质量。",
+    "example": "例如执行清仓后，观察销售额、净销售额、毛利率和售后是否同步变化。"
+  },
+  {
+    "id": "action-011",
+    "action_name": "补货",
+    "action_type": "库存",
+    "purpose": "通过补货改善库存相关业务表现。",
+    "affected_metrics": [
+      "库存周转率",
+      "售后率"
+    ],
+    "possible_positive_effects": "可能提升曝光、成交、库存消化或用户体验。",
+    "possible_risks": "可能带来毛利下降、售后增加、库存压力或投产比下降。",
+    "suitable_scenarios": "适合在库存环节出现明确问题或机会时使用。",
+    "analyst_view": "分析师要观察补货前后的指标变化，并区分短期拉动和长期质量。",
+    "example": "例如执行补货后，观察销售额、净销售额、毛利率和售后是否同步变化。"
+  },
+  {
+    "id": "action-012",
+    "action_name": "上新",
+    "action_type": "商品",
+    "purpose": "通过上新改善商品相关业务表现。",
+    "affected_metrics": [
+      "库存周转率",
+      "售后率"
+    ],
+    "possible_positive_effects": "可能提升曝光、成交、库存消化或用户体验。",
+    "possible_risks": "可能带来毛利下降、售后增加、库存压力或投产比下降。",
+    "suitable_scenarios": "适合在商品环节出现明确问题或机会时使用。",
+    "analyst_view": "分析师要观察上新前后的指标变化，并区分短期拉动和长期质量。",
+    "example": "例如执行上新后，观察销售额、净销售额、毛利率和售后是否同步变化。"
+  },
+  {
+    "id": "action-013",
+    "action_name": "优化主图",
+    "action_type": "内容",
+    "purpose": "通过优化主图改善内容相关业务表现。",
+    "affected_metrics": [
+      "库存周转率",
+      "售后率"
+    ],
+    "possible_positive_effects": "可能提升曝光、成交、库存消化或用户体验。",
+    "possible_risks": "可能带来毛利下降、售后增加、库存压力或投产比下降。",
+    "suitable_scenarios": "适合在内容环节出现明确问题或机会时使用。",
+    "analyst_view": "分析师要观察优化主图前后的指标变化，并区分短期拉动和长期质量。",
+    "example": "例如执行优化主图后，观察销售额、净销售额、毛利率和售后是否同步变化。"
+  },
+  {
+    "id": "action-014",
+    "action_name": "优化标题",
+    "action_type": "内容",
+    "purpose": "通过优化标题改善内容相关业务表现。",
+    "affected_metrics": [
+      "库存周转率",
+      "售后率"
+    ],
+    "possible_positive_effects": "可能提升曝光、成交、库存消化或用户体验。",
+    "possible_risks": "可能带来毛利下降、售后增加、库存压力或投产比下降。",
+    "suitable_scenarios": "适合在内容环节出现明确问题或机会时使用。",
+    "analyst_view": "分析师要观察优化标题前后的指标变化，并区分短期拉动和长期质量。",
+    "example": "例如执行优化标题后，观察销售额、净销售额、毛利率和售后是否同步变化。"
+  },
+  {
+    "id": "action-015",
+    "action_name": "优化详情页",
+    "action_type": "内容",
+    "purpose": "通过优化详情页改善内容相关业务表现。",
+    "affected_metrics": [
+      "库存周转率",
+      "售后率"
+    ],
+    "possible_positive_effects": "可能提升曝光、成交、库存消化或用户体验。",
+    "possible_risks": "可能带来毛利下降、售后增加、库存压力或投产比下降。",
+    "suitable_scenarios": "适合在内容环节出现明确问题或机会时使用。",
+    "analyst_view": "分析师要观察优化详情页前后的指标变化，并区分短期拉动和长期质量。",
+    "example": "例如执行优化详情页后，观察销售额、净销售额、毛利率和售后是否同步变化。"
+  },
+  {
+    "id": "action-016",
+    "action_name": "调整库存",
+    "action_type": "库存",
+    "purpose": "通过调整库存改善库存相关业务表现。",
+    "affected_metrics": [
+      "库存周转率",
+      "售后率"
+    ],
+    "possible_positive_effects": "可能提升曝光、成交、库存消化或用户体验。",
+    "possible_risks": "可能带来毛利下降、售后增加、库存压力或投产比下降。",
+    "suitable_scenarios": "适合在库存环节出现明确问题或机会时使用。",
+    "analyst_view": "分析师要观察调整库存前后的指标变化，并区分短期拉动和长期质量。",
+    "example": "例如执行调整库存后，观察销售额、净销售额、毛利率和售后是否同步变化。"
+  },
+  {
+    "id": "action-017",
+    "action_name": "换推广商品",
+    "action_type": "投流",
+    "purpose": "通过换推广商品改善投流相关业务表现。",
+    "affected_metrics": [
+      "销售额",
+      "转化率",
+      "毛利率"
+    ],
+    "possible_positive_effects": "可能提升曝光、成交、库存消化或用户体验。",
+    "possible_risks": "可能带来毛利下降、售后增加、库存压力或投产比下降。",
+    "suitable_scenarios": "适合在投流环节出现明确问题或机会时使用。",
+    "analyst_view": "分析师要观察换推广商品前后的指标变化，并区分短期拉动和长期质量。",
+    "example": "例如执行换推广商品后，观察销售额、净销售额、毛利率和售后是否同步变化。"
+  },
+  {
+    "id": "action-018",
+    "action_name": "调整人群",
+    "action_type": "投流",
+    "purpose": "通过调整人群改善投流相关业务表现。",
+    "affected_metrics": [
+      "销售额",
+      "转化率",
+      "毛利率"
+    ],
+    "possible_positive_effects": "可能提升曝光、成交、库存消化或用户体验。",
+    "possible_risks": "可能带来毛利下降、售后增加、库存压力或投产比下降。",
+    "suitable_scenarios": "适合在投流环节出现明确问题或机会时使用。",
+    "analyst_view": "分析师要观察调整人群前后的指标变化，并区分短期拉动和长期质量。",
+    "example": "例如执行调整人群后，观察销售额、净销售额、毛利率和售后是否同步变化。"
+  },
+  {
+    "id": "action-019",
+    "action_name": "提高客单价",
+    "action_type": "运营",
+    "purpose": "通过提高客单价改善运营相关业务表现。",
+    "affected_metrics": [
+      "库存周转率",
+      "售后率"
+    ],
+    "possible_positive_effects": "可能提升曝光、成交、库存消化或用户体验。",
+    "possible_risks": "可能带来毛利下降、售后增加、库存压力或投产比下降。",
+    "suitable_scenarios": "适合在运营环节出现明确问题或机会时使用。",
+    "analyst_view": "分析师要观察提高客单价前后的指标变化，并区分短期拉动和长期质量。",
+    "example": "例如执行提高客单价后，观察销售额、净销售额、毛利率和售后是否同步变化。"
+  },
+  {
+    "id": "action-020",
+    "action_name": "处理差评",
+    "action_type": "售后",
+    "purpose": "通过处理差评改善售后相关业务表现。",
+    "affected_metrics": [
+      "库存周转率",
+      "售后率"
+    ],
+    "possible_positive_effects": "可能提升曝光、成交、库存消化或用户体验。",
+    "possible_risks": "可能带来毛利下降、售后增加、库存压力或投产比下降。",
+    "suitable_scenarios": "适合在售后环节出现明确问题或机会时使用。",
+    "analyst_view": "分析师要观察处理差评前后的指标变化，并区分短期拉动和长期质量。",
+    "example": "例如执行处理差评后，观察销售额、净销售额、毛利率和售后是否同步变化。"
+  }
+]

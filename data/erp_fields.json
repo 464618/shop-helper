@@ -1,0 +1,482 @@
+[
+  {
+    "id": "field-001",
+    "field_name": "订单编号",
+    "module": "订单",
+    "plain_explanation": "订单编号 是 ERP 中用于记录订单信息的字段。",
+    "business_meaning": "它帮助判断订单环节发生了什么，以及是否影响销售、库存、售后或财务结果。",
+    "source": "常见来源是订单模块、平台订单、仓库回传或人工维护。",
+    "related_process": "订单流程",
+    "related_metrics": [
+      "销售额",
+      "订单数"
+    ],
+    "common_misunderstanding": "不要把 订单编号 当成孤立字段，要结合状态、时间和来源系统理解。",
+    "analyst_view": "分析师应关注 订单编号 是否缺失、是否重复、是否有异常值，以及它如何进入指标计算。",
+    "example": "例如按 订单编号 分组查看异常，可以定位某个环节的问题。"
+  },
+  {
+    "id": "field-002",
+    "field_name": "商品编号",
+    "module": "商品",
+    "plain_explanation": "商品编号 是 ERP 中用于记录商品信息的字段。",
+    "business_meaning": "它帮助判断商品环节发生了什么，以及是否影响销售、库存、售后或财务结果。",
+    "source": "常见来源是商品模块、平台订单、仓库回传或人工维护。",
+    "related_process": "商品流程",
+    "related_metrics": [
+      "库存周转率",
+      "发货时效"
+    ],
+    "common_misunderstanding": "不要把 商品编号 当成孤立字段，要结合状态、时间和来源系统理解。",
+    "analyst_view": "分析师应关注 商品编号 是否缺失、是否重复、是否有异常值，以及它如何进入指标计算。",
+    "example": "例如按 商品编号 分组查看异常，可以定位某个环节的问题。"
+  },
+  {
+    "id": "field-003",
+    "field_name": "SKU 编码",
+    "module": "商品",
+    "plain_explanation": "SKU 编码 是 ERP 中用于记录商品信息的字段。",
+    "business_meaning": "它帮助判断商品环节发生了什么，以及是否影响销售、库存、售后或财务结果。",
+    "source": "常见来源是商品模块、平台订单、仓库回传或人工维护。",
+    "related_process": "商品流程",
+    "related_metrics": [
+      "库存周转率",
+      "发货时效"
+    ],
+    "common_misunderstanding": "不要把 SKU 编码 当成孤立字段，要结合状态、时间和来源系统理解。",
+    "analyst_view": "分析师应关注 SKU 编码 是否缺失、是否重复、是否有异常值，以及它如何进入指标计算。",
+    "example": "例如按 SKU 编码 分组查看异常，可以定位某个环节的问题。"
+  },
+  {
+    "id": "field-004",
+    "field_name": "款号",
+    "module": "商品",
+    "plain_explanation": "款号 是 ERP 中用于记录商品信息的字段。",
+    "business_meaning": "它帮助判断商品环节发生了什么，以及是否影响销售、库存、售后或财务结果。",
+    "source": "常见来源是商品模块、平台订单、仓库回传或人工维护。",
+    "related_process": "商品流程",
+    "related_metrics": [
+      "库存周转率",
+      "发货时效"
+    ],
+    "common_misunderstanding": "不要把 款号 当成孤立字段，要结合状态、时间和来源系统理解。",
+    "analyst_view": "分析师应关注 款号 是否缺失、是否重复、是否有异常值，以及它如何进入指标计算。",
+    "example": "例如按 款号 分组查看异常，可以定位某个环节的问题。"
+  },
+  {
+    "id": "field-005",
+    "field_name": "颜色",
+    "module": "商品",
+    "plain_explanation": "颜色 是 ERP 中用于记录商品信息的字段。",
+    "business_meaning": "它帮助判断商品环节发生了什么，以及是否影响销售、库存、售后或财务结果。",
+    "source": "常见来源是商品模块、平台订单、仓库回传或人工维护。",
+    "related_process": "商品流程",
+    "related_metrics": [
+      "库存周转率",
+      "发货时效"
+    ],
+    "common_misunderstanding": "不要把 颜色 当成孤立字段，要结合状态、时间和来源系统理解。",
+    "analyst_view": "分析师应关注 颜色 是否缺失、是否重复、是否有异常值，以及它如何进入指标计算。",
+    "example": "例如按 颜色 分组查看异常，可以定位某个环节的问题。"
+  },
+  {
+    "id": "field-006",
+    "field_name": "尺码",
+    "module": "商品",
+    "plain_explanation": "尺码 是 ERP 中用于记录商品信息的字段。",
+    "business_meaning": "它帮助判断商品环节发生了什么，以及是否影响销售、库存、售后或财务结果。",
+    "source": "常见来源是商品模块、平台订单、仓库回传或人工维护。",
+    "related_process": "商品流程",
+    "related_metrics": [
+      "库存周转率",
+      "发货时效"
+    ],
+    "common_misunderstanding": "不要把 尺码 当成孤立字段，要结合状态、时间和来源系统理解。",
+    "analyst_view": "分析师应关注 尺码 是否缺失、是否重复、是否有异常值，以及它如何进入指标计算。",
+    "example": "例如按 尺码 分组查看异常，可以定位某个环节的问题。"
+  },
+  {
+    "id": "field-007",
+    "field_name": "商品数量",
+    "module": "订单",
+    "plain_explanation": "商品数量 是 ERP 中用于记录订单信息的字段。",
+    "business_meaning": "它帮助判断订单环节发生了什么，以及是否影响销售、库存、售后或财务结果。",
+    "source": "常见来源是订单模块、平台订单、仓库回传或人工维护。",
+    "related_process": "订单流程",
+    "related_metrics": [
+      "销售额",
+      "订单数"
+    ],
+    "common_misunderstanding": "不要把 商品数量 当成孤立字段，要结合状态、时间和来源系统理解。",
+    "analyst_view": "分析师应关注 商品数量 是否缺失、是否重复、是否有异常值，以及它如何进入指标计算。",
+    "example": "例如按 商品数量 分组查看异常，可以定位某个环节的问题。"
+  },
+  {
+    "id": "field-008",
+    "field_name": "实付金额",
+    "module": "订单",
+    "plain_explanation": "实付金额 是 ERP 中用于记录订单信息的字段。",
+    "business_meaning": "它帮助判断订单环节发生了什么，以及是否影响销售、库存、售后或财务结果。",
+    "source": "常见来源是订单模块、平台订单、仓库回传或人工维护。",
+    "related_process": "订单流程",
+    "related_metrics": [
+      "销售额",
+      "订单数"
+    ],
+    "common_misunderstanding": "不要把 实付金额 当成孤立字段，要结合状态、时间和来源系统理解。",
+    "analyst_view": "分析师应关注 实付金额 是否缺失、是否重复、是否有异常值，以及它如何进入指标计算。",
+    "example": "例如按 实付金额 分组查看异常，可以定位某个环节的问题。"
+  },
+  {
+    "id": "field-009",
+    "field_name": "退款金额",
+    "module": "售后",
+    "plain_explanation": "退款金额 是 ERP 中用于记录售后信息的字段。",
+    "business_meaning": "它帮助判断售后环节发生了什么，以及是否影响销售、库存、售后或财务结果。",
+    "source": "常见来源是售后模块、平台订单、仓库回传或人工维护。",
+    "related_process": "售后流程",
+    "related_metrics": [
+      "库存周转率",
+      "发货时效"
+    ],
+    "common_misunderstanding": "不要把 退款金额 当成孤立字段，要结合状态、时间和来源系统理解。",
+    "analyst_view": "分析师应关注 退款金额 是否缺失、是否重复、是否有异常值，以及它如何进入指标计算。",
+    "example": "例如按 退款金额 分组查看异常，可以定位某个环节的问题。"
+  },
+  {
+    "id": "field-010",
+    "field_name": "成本价",
+    "module": "财务",
+    "plain_explanation": "成本价 是 ERP 中用于记录财务信息的字段。",
+    "business_meaning": "它帮助判断财务环节发生了什么，以及是否影响销售、库存、售后或财务结果。",
+    "source": "常见来源是财务模块、平台订单、仓库回传或人工维护。",
+    "related_process": "财务流程",
+    "related_metrics": [
+      "销售额",
+      "订单数"
+    ],
+    "common_misunderstanding": "不要把 成本价 当成孤立字段，要结合状态、时间和来源系统理解。",
+    "analyst_view": "分析师应关注 成本价 是否缺失、是否重复、是否有异常值，以及它如何进入指标计算。",
+    "example": "例如按 成本价 分组查看异常，可以定位某个环节的问题。"
+  },
+  {
+    "id": "field-011",
+    "field_name": "销售价",
+    "module": "财务",
+    "plain_explanation": "销售价 是 ERP 中用于记录财务信息的字段。",
+    "business_meaning": "它帮助判断财务环节发生了什么，以及是否影响销售、库存、售后或财务结果。",
+    "source": "常见来源是财务模块、平台订单、仓库回传或人工维护。",
+    "related_process": "财务流程",
+    "related_metrics": [
+      "销售额",
+      "订单数"
+    ],
+    "common_misunderstanding": "不要把 销售价 当成孤立字段，要结合状态、时间和来源系统理解。",
+    "analyst_view": "分析师应关注 销售价 是否缺失、是否重复、是否有异常值，以及它如何进入指标计算。",
+    "example": "例如按 销售价 分组查看异常，可以定位某个环节的问题。"
+  },
+  {
+    "id": "field-012",
+    "field_name": "平台费用",
+    "module": "财务",
+    "plain_explanation": "平台费用 是 ERP 中用于记录财务信息的字段。",
+    "business_meaning": "它帮助判断财务环节发生了什么，以及是否影响销售、库存、售后或财务结果。",
+    "source": "常见来源是财务模块、平台订单、仓库回传或人工维护。",
+    "related_process": "财务流程",
+    "related_metrics": [
+      "销售额",
+      "订单数"
+    ],
+    "common_misunderstanding": "不要把 平台费用 当成孤立字段，要结合状态、时间和来源系统理解。",
+    "analyst_view": "分析师应关注 平台费用 是否缺失、是否重复、是否有异常值，以及它如何进入指标计算。",
+    "example": "例如按 平台费用 分组查看异常，可以定位某个环节的问题。"
+  },
+  {
+    "id": "field-013",
+    "field_name": "毛利",
+    "module": "财务",
+    "plain_explanation": "毛利 是 ERP 中用于记录财务信息的字段。",
+    "business_meaning": "它帮助判断财务环节发生了什么，以及是否影响销售、库存、售后或财务结果。",
+    "source": "常见来源是财务模块、平台订单、仓库回传或人工维护。",
+    "related_process": "财务流程",
+    "related_metrics": [
+      "销售额",
+      "订单数"
+    ],
+    "common_misunderstanding": "不要把 毛利 当成孤立字段，要结合状态、时间和来源系统理解。",
+    "analyst_view": "分析师应关注 毛利 是否缺失、是否重复、是否有异常值，以及它如何进入指标计算。",
+    "example": "例如按 毛利 分组查看异常，可以定位某个环节的问题。"
+  },
+  {
+    "id": "field-014",
+    "field_name": "毛利率",
+    "module": "财务",
+    "plain_explanation": "毛利率 是 ERP 中用于记录财务信息的字段。",
+    "business_meaning": "它帮助判断财务环节发生了什么，以及是否影响销售、库存、售后或财务结果。",
+    "source": "常见来源是财务模块、平台订单、仓库回传或人工维护。",
+    "related_process": "财务流程",
+    "related_metrics": [
+      "销售额",
+      "订单数"
+    ],
+    "common_misunderstanding": "不要把 毛利率 当成孤立字段，要结合状态、时间和来源系统理解。",
+    "analyst_view": "分析师应关注 毛利率 是否缺失、是否重复、是否有异常值，以及它如何进入指标计算。",
+    "example": "例如按 毛利率 分组查看异常，可以定位某个环节的问题。"
+  },
+  {
+    "id": "field-015",
+    "field_name": "付款时间",
+    "module": "订单",
+    "plain_explanation": "付款时间 是 ERP 中用于记录订单信息的字段。",
+    "business_meaning": "它帮助判断订单环节发生了什么，以及是否影响销售、库存、售后或财务结果。",
+    "source": "常见来源是订单模块、平台订单、仓库回传或人工维护。",
+    "related_process": "订单流程",
+    "related_metrics": [
+      "销售额",
+      "订单数"
+    ],
+    "common_misunderstanding": "不要把 付款时间 当成孤立字段，要结合状态、时间和来源系统理解。",
+    "analyst_view": "分析师应关注 付款时间 是否缺失、是否重复、是否有异常值，以及它如何进入指标计算。",
+    "example": "例如按 付款时间 分组查看异常，可以定位某个环节的问题。"
+  },
+  {
+    "id": "field-016",
+    "field_name": "发货时间",
+    "module": "物流",
+    "plain_explanation": "发货时间 是 ERP 中用于记录物流信息的字段。",
+    "business_meaning": "它帮助判断物流环节发生了什么，以及是否影响销售、库存、售后或财务结果。",
+    "source": "常见来源是物流模块、平台订单、仓库回传或人工维护。",
+    "related_process": "物流流程",
+    "related_metrics": [
+      "库存周转率",
+      "发货时效"
+    ],
+    "common_misunderstanding": "不要把 发货时间 当成孤立字段，要结合状态、时间和来源系统理解。",
+    "analyst_view": "分析师应关注 发货时间 是否缺失、是否重复、是否有异常值，以及它如何进入指标计算。",
+    "example": "例如按 发货时间 分组查看异常，可以定位某个环节的问题。"
+  },
+  {
+    "id": "field-017",
+    "field_name": "签收时间",
+    "module": "物流",
+    "plain_explanation": "签收时间 是 ERP 中用于记录物流信息的字段。",
+    "business_meaning": "它帮助判断物流环节发生了什么，以及是否影响销售、库存、售后或财务结果。",
+    "source": "常见来源是物流模块、平台订单、仓库回传或人工维护。",
+    "related_process": "物流流程",
+    "related_metrics": [
+      "库存周转率",
+      "发货时效"
+    ],
+    "common_misunderstanding": "不要把 签收时间 当成孤立字段，要结合状态、时间和来源系统理解。",
+    "analyst_view": "分析师应关注 签收时间 是否缺失、是否重复、是否有异常值，以及它如何进入指标计算。",
+    "example": "例如按 签收时间 分组查看异常，可以定位某个环节的问题。"
+  },
+  {
+    "id": "field-018",
+    "field_name": "订单状态",
+    "module": "订单",
+    "plain_explanation": "订单状态 是 ERP 中用于记录订单信息的字段。",
+    "business_meaning": "它帮助判断订单环节发生了什么，以及是否影响销售、库存、售后或财务结果。",
+    "source": "常见来源是订单模块、平台订单、仓库回传或人工维护。",
+    "related_process": "订单流程",
+    "related_metrics": [
+      "销售额",
+      "订单数"
+    ],
+    "common_misunderstanding": "不要把 订单状态 当成孤立字段，要结合状态、时间和来源系统理解。",
+    "analyst_view": "分析师应关注 订单状态 是否缺失、是否重复、是否有异常值，以及它如何进入指标计算。",
+    "example": "例如按 订单状态 分组查看异常，可以定位某个环节的问题。"
+  },
+  {
+    "id": "field-019",
+    "field_name": "售后状态",
+    "module": "售后",
+    "plain_explanation": "售后状态 是 ERP 中用于记录售后信息的字段。",
+    "business_meaning": "它帮助判断售后环节发生了什么，以及是否影响销售、库存、售后或财务结果。",
+    "source": "常见来源是售后模块、平台订单、仓库回传或人工维护。",
+    "related_process": "售后流程",
+    "related_metrics": [
+      "库存周转率",
+      "发货时效"
+    ],
+    "common_misunderstanding": "不要把 售后状态 当成孤立字段，要结合状态、时间和来源系统理解。",
+    "analyst_view": "分析师应关注 售后状态 是否缺失、是否重复、是否有异常值，以及它如何进入指标计算。",
+    "example": "例如按 售后状态 分组查看异常，可以定位某个环节的问题。"
+  },
+  {
+    "id": "field-020",
+    "field_name": "仓库",
+    "module": "库存",
+    "plain_explanation": "仓库 是 ERP 中用于记录库存信息的字段。",
+    "business_meaning": "它帮助判断库存环节发生了什么，以及是否影响销售、库存、售后或财务结果。",
+    "source": "常见来源是库存模块、平台订单、仓库回传或人工维护。",
+    "related_process": "库存流程",
+    "related_metrics": [
+      "库存周转率",
+      "发货时效"
+    ],
+    "common_misunderstanding": "不要把 仓库 当成孤立字段，要结合状态、时间和来源系统理解。",
+    "analyst_view": "分析师应关注 仓库 是否缺失、是否重复、是否有异常值，以及它如何进入指标计算。",
+    "example": "例如按 仓库 分组查看异常，可以定位某个环节的问题。"
+  },
+  {
+    "id": "field-021",
+    "field_name": "可用库存",
+    "module": "库存",
+    "plain_explanation": "可用库存 是 ERP 中用于记录库存信息的字段。",
+    "business_meaning": "它帮助判断库存环节发生了什么，以及是否影响销售、库存、售后或财务结果。",
+    "source": "常见来源是库存模块、平台订单、仓库回传或人工维护。",
+    "related_process": "库存流程",
+    "related_metrics": [
+      "库存周转率",
+      "发货时效"
+    ],
+    "common_misunderstanding": "不要把 可用库存 当成孤立字段，要结合状态、时间和来源系统理解。",
+    "analyst_view": "分析师应关注 可用库存 是否缺失、是否重复、是否有异常值，以及它如何进入指标计算。",
+    "example": "例如按 可用库存 分组查看异常，可以定位某个环节的问题。"
+  },
+  {
+    "id": "field-022",
+    "field_name": "锁定库存",
+    "module": "库存",
+    "plain_explanation": "锁定库存 是 ERP 中用于记录库存信息的字段。",
+    "business_meaning": "它帮助判断库存环节发生了什么，以及是否影响销售、库存、售后或财务结果。",
+    "source": "常见来源是库存模块、平台订单、仓库回传或人工维护。",
+    "related_process": "库存流程",
+    "related_metrics": [
+      "库存周转率",
+      "发货时效"
+    ],
+    "common_misunderstanding": "不要把 锁定库存 当成孤立字段，要结合状态、时间和来源系统理解。",
+    "analyst_view": "分析师应关注 锁定库存 是否缺失、是否重复、是否有异常值，以及它如何进入指标计算。",
+    "example": "例如按 锁定库存 分组查看异常，可以定位某个环节的问题。"
+  },
+  {
+    "id": "field-023",
+    "field_name": "实际库存",
+    "module": "库存",
+    "plain_explanation": "实际库存 是 ERP 中用于记录库存信息的字段。",
+    "business_meaning": "它帮助判断库存环节发生了什么，以及是否影响销售、库存、售后或财务结果。",
+    "source": "常见来源是库存模块、平台订单、仓库回传或人工维护。",
+    "related_process": "库存流程",
+    "related_metrics": [
+      "库存周转率",
+      "发货时效"
+    ],
+    "common_misunderstanding": "不要把 实际库存 当成孤立字段，要结合状态、时间和来源系统理解。",
+    "analyst_view": "分析师应关注 实际库存 是否缺失、是否重复、是否有异常值，以及它如何进入指标计算。",
+    "example": "例如按 实际库存 分组查看异常，可以定位某个环节的问题。"
+  },
+  {
+    "id": "field-024",
+    "field_name": "在途库存",
+    "module": "库存",
+    "plain_explanation": "在途库存 是 ERP 中用于记录库存信息的字段。",
+    "business_meaning": "它帮助判断库存环节发生了什么，以及是否影响销售、库存、售后或财务结果。",
+    "source": "常见来源是库存模块、平台订单、仓库回传或人工维护。",
+    "related_process": "库存流程",
+    "related_metrics": [
+      "库存周转率",
+      "发货时效"
+    ],
+    "common_misunderstanding": "不要把 在途库存 当成孤立字段，要结合状态、时间和来源系统理解。",
+    "analyst_view": "分析师应关注 在途库存 是否缺失、是否重复、是否有异常值，以及它如何进入指标计算。",
+    "example": "例如按 在途库存 分组查看异常，可以定位某个环节的问题。"
+  },
+  {
+    "id": "field-025",
+    "field_name": "入库数量",
+    "module": "库存",
+    "plain_explanation": "入库数量 是 ERP 中用于记录库存信息的字段。",
+    "business_meaning": "它帮助判断库存环节发生了什么，以及是否影响销售、库存、售后或财务结果。",
+    "source": "常见来源是库存模块、平台订单、仓库回传或人工维护。",
+    "related_process": "库存流程",
+    "related_metrics": [
+      "库存周转率",
+      "发货时效"
+    ],
+    "common_misunderstanding": "不要把 入库数量 当成孤立字段，要结合状态、时间和来源系统理解。",
+    "analyst_view": "分析师应关注 入库数量 是否缺失、是否重复、是否有异常值，以及它如何进入指标计算。",
+    "example": "例如按 入库数量 分组查看异常，可以定位某个环节的问题。"
+  },
+  {
+    "id": "field-026",
+    "field_name": "出库数量",
+    "module": "库存",
+    "plain_explanation": "出库数量 是 ERP 中用于记录库存信息的字段。",
+    "business_meaning": "它帮助判断库存环节发生了什么，以及是否影响销售、库存、售后或财务结果。",
+    "source": "常见来源是库存模块、平台订单、仓库回传或人工维护。",
+    "related_process": "库存流程",
+    "related_metrics": [
+      "库存周转率",
+      "发货时效"
+    ],
+    "common_misunderstanding": "不要把 出库数量 当成孤立字段，要结合状态、时间和来源系统理解。",
+    "analyst_view": "分析师应关注 出库数量 是否缺失、是否重复、是否有异常值，以及它如何进入指标计算。",
+    "example": "例如按 出库数量 分组查看异常，可以定位某个环节的问题。"
+  },
+  {
+    "id": "field-027",
+    "field_name": "退货入库数量",
+    "module": "售后",
+    "plain_explanation": "退货入库数量 是 ERP 中用于记录售后信息的字段。",
+    "business_meaning": "它帮助判断售后环节发生了什么，以及是否影响销售、库存、售后或财务结果。",
+    "source": "常见来源是售后模块、平台订单、仓库回传或人工维护。",
+    "related_process": "售后流程",
+    "related_metrics": [
+      "库存周转率",
+      "发货时效"
+    ],
+    "common_misunderstanding": "不要把 退货入库数量 当成孤立字段，要结合状态、时间和来源系统理解。",
+    "analyst_view": "分析师应关注 退货入库数量 是否缺失、是否重复、是否有异常值，以及它如何进入指标计算。",
+    "example": "例如按 退货入库数量 分组查看异常，可以定位某个环节的问题。"
+  },
+  {
+    "id": "field-028",
+    "field_name": "缺货数量",
+    "module": "库存",
+    "plain_explanation": "缺货数量 是 ERP 中用于记录库存信息的字段。",
+    "business_meaning": "它帮助判断库存环节发生了什么，以及是否影响销售、库存、售后或财务结果。",
+    "source": "常见来源是库存模块、平台订单、仓库回传或人工维护。",
+    "related_process": "库存流程",
+    "related_metrics": [
+      "库存周转率",
+      "发货时效"
+    ],
+    "common_misunderstanding": "不要把 缺货数量 当成孤立字段，要结合状态、时间和来源系统理解。",
+    "analyst_view": "分析师应关注 缺货数量 是否缺失、是否重复、是否有异常值，以及它如何进入指标计算。",
+    "example": "例如按 缺货数量 分组查看异常，可以定位某个环节的问题。"
+  },
+  {
+    "id": "field-029",
+    "field_name": "物流单号",
+    "module": "物流",
+    "plain_explanation": "物流单号 是 ERP 中用于记录物流信息的字段。",
+    "business_meaning": "它帮助判断物流环节发生了什么，以及是否影响销售、库存、售后或财务结果。",
+    "source": "常见来源是物流模块、平台订单、仓库回传或人工维护。",
+    "related_process": "物流流程",
+    "related_metrics": [
+      "库存周转率",
+      "发货时效"
+    ],
+    "common_misunderstanding": "不要把 物流单号 当成孤立字段，要结合状态、时间和来源系统理解。",
+    "analyst_view": "分析师应关注 物流单号 是否缺失、是否重复、是否有异常值，以及它如何进入指标计算。",
+    "example": "例如按 物流单号 分组查看异常，可以定位某个环节的问题。"
+  },
+  {
+    "id": "field-030",
+    "field_name": "店铺名称",
+    "module": "平台",
+    "plain_explanation": "店铺名称 是 ERP 中用于记录平台信息的字段。",
+    "business_meaning": "它帮助判断平台环节发生了什么，以及是否影响销售、库存、售后或财务结果。",
+    "source": "常见来源是平台模块、平台订单、仓库回传或人工维护。",
+    "related_process": "平台流程",
+    "related_metrics": [
+      "销售额",
+      "订单数"
+    ],
+    "common_misunderstanding": "不要把 店铺名称 当成孤立字段，要结合状态、时间和来源系统理解。",
+    "analyst_view": "分析师应关注 店铺名称 是否缺失、是否重复、是否有异常值，以及它如何进入指标计算。",
+    "example": "例如按 店铺名称 分组查看异常，可以定位某个环节的问题。"
+  }
+]

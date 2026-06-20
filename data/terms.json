@@ -1,0 +1,602 @@
+[
+  {
+    "id": "term-001",
+    "name": "SKU",
+    "category": "商品",
+    "plain_explanation": "最小库存管理单位，通常对应具体颜色、尺码、规格。",
+    "business_context": "在商品相关日报、ERP 页面或运营沟通中，经常会用“SKU”判断业务状态。",
+    "related_erp_fields": [
+      "订单编号",
+      "SKU 编码",
+      "店铺名称"
+    ],
+    "related_metrics": [
+      "销售额",
+      "净销售额",
+      "毛利率"
+    ],
+    "common_misunderstandings": "容易只看“SKU”的表面数值，而忽略统计口径、时间范围和业务状态。",
+    "analyst_view": "分析“SKU”时要追问来源字段、计算口径、是否扣除退款，以及它会影响哪些后续动作。",
+    "example": "例如日报中出现“SKU 异常”，应先确认口径，再看订单、库存、售后或投放数据。"
+  },
+  {
+    "id": "term-002",
+    "name": "SPU",
+    "category": "商品",
+    "plain_explanation": "标准产品单位，通常代表一个商品款式或产品集合。",
+    "business_context": "在商品相关日报、ERP 页面或运营沟通中，经常会用“SPU”判断业务状态。",
+    "related_erp_fields": [
+      "订单编号",
+      "SKU 编码",
+      "店铺名称"
+    ],
+    "related_metrics": [
+      "销售额",
+      "净销售额",
+      "毛利率"
+    ],
+    "common_misunderstandings": "容易只看“SPU”的表面数值，而忽略统计口径、时间范围和业务状态。",
+    "analyst_view": "分析“SPU”时要追问来源字段、计算口径、是否扣除退款，以及它会影响哪些后续动作。",
+    "example": "例如日报中出现“SPU 异常”，应先确认口径，再看订单、库存、售后或投放数据。"
+  },
+  {
+    "id": "term-003",
+    "name": "款号",
+    "category": "商品",
+    "plain_explanation": "用于识别商品款式的内部编号。",
+    "business_context": "在商品相关日报、ERP 页面或运营沟通中，经常会用“款号”判断业务状态。",
+    "related_erp_fields": [
+      "订单编号",
+      "SKU 编码",
+      "店铺名称"
+    ],
+    "related_metrics": [
+      "销售额",
+      "净销售额",
+      "毛利率"
+    ],
+    "common_misunderstandings": "容易只看“款号”的表面数值，而忽略统计口径、时间范围和业务状态。",
+    "analyst_view": "分析“款号”时要追问来源字段、计算口径、是否扣除退款，以及它会影响哪些后续动作。",
+    "example": "例如日报中出现“款号 异常”，应先确认口径，再看订单、库存、售后或投放数据。"
+  },
+  {
+    "id": "term-004",
+    "name": "条码",
+    "category": "商品",
+    "plain_explanation": "用于扫码识别商品或 SKU 的编码。",
+    "business_context": "在商品相关日报、ERP 页面或运营沟通中，经常会用“条码”判断业务状态。",
+    "related_erp_fields": [
+      "订单编号",
+      "SKU 编码",
+      "店铺名称"
+    ],
+    "related_metrics": [
+      "销售额",
+      "净销售额",
+      "毛利率"
+    ],
+    "common_misunderstandings": "容易只看“条码”的表面数值，而忽略统计口径、时间范围和业务状态。",
+    "analyst_view": "分析“条码”时要追问来源字段、计算口径、是否扣除退款，以及它会影响哪些后续动作。",
+    "example": "例如日报中出现“条码 异常”，应先确认口径，再看订单、库存、售后或投放数据。"
+  },
+  {
+    "id": "term-005",
+    "name": "上架",
+    "category": "商品",
+    "plain_explanation": "商品从不可售状态变为可售状态。",
+    "business_context": "在商品相关日报、ERP 页面或运营沟通中，经常会用“上架”判断业务状态。",
+    "related_erp_fields": [
+      "订单编号",
+      "SKU 编码",
+      "店铺名称"
+    ],
+    "related_metrics": [
+      "销售额",
+      "净销售额",
+      "毛利率"
+    ],
+    "common_misunderstandings": "容易只看“上架”的表面数值，而忽略统计口径、时间范围和业务状态。",
+    "analyst_view": "分析“上架”时要追问来源字段、计算口径、是否扣除退款，以及它会影响哪些后续动作。",
+    "example": "例如日报中出现“上架 异常”，应先确认口径，再看订单、库存、售后或投放数据。"
+  },
+  {
+    "id": "term-006",
+    "name": "下架",
+    "category": "商品",
+    "plain_explanation": "商品从可售状态变为不可售状态。",
+    "business_context": "在商品相关日报、ERP 页面或运营沟通中，经常会用“下架”判断业务状态。",
+    "related_erp_fields": [
+      "订单编号",
+      "SKU 编码",
+      "店铺名称"
+    ],
+    "related_metrics": [
+      "销售额",
+      "净销售额",
+      "毛利率"
+    ],
+    "common_misunderstandings": "容易只看“下架”的表面数值，而忽略统计口径、时间范围和业务状态。",
+    "analyst_view": "分析“下架”时要追问来源字段、计算口径、是否扣除退款，以及它会影响哪些后续动作。",
+    "example": "例如日报中出现“下架 异常”，应先确认口径，再看订单、库存、售后或投放数据。"
+  },
+  {
+    "id": "term-007",
+    "name": "预售",
+    "category": "订单",
+    "plain_explanation": "先收订单或定金，之后再发货的销售方式。",
+    "business_context": "在订单相关日报、ERP 页面或运营沟通中，经常会用“预售”判断业务状态。",
+    "related_erp_fields": [
+      "订单编号",
+      "SKU 编码",
+      "店铺名称"
+    ],
+    "related_metrics": [
+      "销售额",
+      "净销售额",
+      "毛利率"
+    ],
+    "common_misunderstandings": "容易只看“预售”的表面数值，而忽略统计口径、时间范围和业务状态。",
+    "analyst_view": "分析“预售”时要追问来源字段、计算口径、是否扣除退款，以及它会影响哪些后续动作。",
+    "example": "例如日报中出现“预售 异常”，应先确认口径，再看订单、库存、售后或投放数据。"
+  },
+  {
+    "id": "term-008",
+    "name": "现货",
+    "category": "订单",
+    "plain_explanation": "已有库存并可以较快发货的商品。",
+    "business_context": "在订单相关日报、ERP 页面或运营沟通中，经常会用“现货”判断业务状态。",
+    "related_erp_fields": [
+      "订单编号",
+      "SKU 编码",
+      "店铺名称"
+    ],
+    "related_metrics": [
+      "销售额",
+      "净销售额",
+      "毛利率"
+    ],
+    "common_misunderstandings": "容易只看“现货”的表面数值，而忽略统计口径、时间范围和业务状态。",
+    "analyst_view": "分析“现货”时要追问来源字段、计算口径、是否扣除退款，以及它会影响哪些后续动作。",
+    "example": "例如日报中出现“现货 异常”，应先确认口径，再看订单、库存、售后或投放数据。"
+  },
+  {
+    "id": "term-009",
+    "name": "锁库存",
+    "category": "库存",
+    "plain_explanation": "订单占用库存但还没有完成出库。",
+    "business_context": "在库存相关日报、ERP 页面或运营沟通中，经常会用“锁库存”判断业务状态。",
+    "related_erp_fields": [
+      "订单编号",
+      "SKU 编码",
+      "店铺名称"
+    ],
+    "related_metrics": [
+      "销售额",
+      "净销售额",
+      "毛利率"
+    ],
+    "common_misunderstandings": "容易只看“锁库存”的表面数值，而忽略统计口径、时间范围和业务状态。",
+    "analyst_view": "分析“锁库存”时要追问来源字段、计算口径、是否扣除退款，以及它会影响哪些后续动作。",
+    "example": "例如日报中出现“锁库存 异常”，应先确认口径，再看订单、库存、售后或投放数据。"
+  },
+  {
+    "id": "term-010",
+    "name": "可用库存",
+    "category": "库存",
+    "plain_explanation": "实际可继续售卖的库存数量。",
+    "business_context": "在库存相关日报、ERP 页面或运营沟通中，经常会用“可用库存”判断业务状态。",
+    "related_erp_fields": [
+      "订单编号",
+      "SKU 编码",
+      "店铺名称"
+    ],
+    "related_metrics": [
+      "销售额",
+      "净销售额",
+      "毛利率"
+    ],
+    "common_misunderstandings": "容易只看“可用库存”的表面数值，而忽略统计口径、时间范围和业务状态。",
+    "analyst_view": "分析“可用库存”时要追问来源字段、计算口径、是否扣除退款，以及它会影响哪些后续动作。",
+    "example": "例如日报中出现“可用库存 异常”，应先确认口径，再看订单、库存、售后或投放数据。"
+  },
+  {
+    "id": "term-011",
+    "name": "在途库存",
+    "category": "库存",
+    "plain_explanation": "已经采购或调拨但尚未入库的库存。",
+    "business_context": "在库存相关日报、ERP 页面或运营沟通中，经常会用“在途库存”判断业务状态。",
+    "related_erp_fields": [
+      "订单编号",
+      "SKU 编码",
+      "店铺名称"
+    ],
+    "related_metrics": [
+      "销售额",
+      "净销售额",
+      "毛利率"
+    ],
+    "common_misunderstandings": "容易只看“在途库存”的表面数值，而忽略统计口径、时间范围和业务状态。",
+    "analyst_view": "分析“在途库存”时要追问来源字段、计算口径、是否扣除退款，以及它会影响哪些后续动作。",
+    "example": "例如日报中出现“在途库存 异常”，应先确认口径，再看订单、库存、售后或投放数据。"
+  },
+  {
+    "id": "term-012",
+    "name": "缺货",
+    "category": "库存",
+    "plain_explanation": "可售需求大于可用库存。",
+    "business_context": "在库存相关日报、ERP 页面或运营沟通中，经常会用“缺货”判断业务状态。",
+    "related_erp_fields": [
+      "订单编号",
+      "SKU 编码",
+      "店铺名称"
+    ],
+    "related_metrics": [
+      "销售额",
+      "净销售额",
+      "毛利率"
+    ],
+    "common_misunderstandings": "容易只看“缺货”的表面数值，而忽略统计口径、时间范围和业务状态。",
+    "analyst_view": "分析“缺货”时要追问来源字段、计算口径、是否扣除退款，以及它会影响哪些后续动作。",
+    "example": "例如日报中出现“缺货 异常”，应先确认口径，再看订单、库存、售后或投放数据。"
+  },
+  {
+    "id": "term-013",
+    "name": "超卖",
+    "category": "库存",
+    "plain_explanation": "卖出的数量超过可实际履约的库存。",
+    "business_context": "在库存相关日报、ERP 页面或运营沟通中，经常会用“超卖”判断业务状态。",
+    "related_erp_fields": [
+      "订单编号",
+      "SKU 编码",
+      "店铺名称"
+    ],
+    "related_metrics": [
+      "销售额",
+      "净销售额",
+      "毛利率"
+    ],
+    "common_misunderstandings": "容易只看“超卖”的表面数值，而忽略统计口径、时间范围和业务状态。",
+    "analyst_view": "分析“超卖”时要追问来源字段、计算口径、是否扣除退款，以及它会影响哪些后续动作。",
+    "example": "例如日报中出现“超卖 异常”，应先确认口径，再看订单、库存、售后或投放数据。"
+  },
+  {
+    "id": "term-014",
+    "name": "GMV",
+    "category": "销售",
+    "plain_explanation": "成交总额，通常未扣除退款和费用。",
+    "business_context": "在销售相关日报、ERP 页面或运营沟通中，经常会用“GMV”判断业务状态。",
+    "related_erp_fields": [
+      "订单编号",
+      "SKU 编码",
+      "店铺名称"
+    ],
+    "related_metrics": [
+      "销售额",
+      "净销售额",
+      "毛利率"
+    ],
+    "common_misunderstandings": "容易只看“GMV”的表面数值，而忽略统计口径、时间范围和业务状态。",
+    "analyst_view": "分析“GMV”时要追问来源字段、计算口径、是否扣除退款，以及它会影响哪些后续动作。",
+    "example": "例如日报中出现“GMV 异常”，应先确认口径，再看订单、库存、售后或投放数据。"
+  },
+  {
+    "id": "term-015",
+    "name": "销售额",
+    "category": "销售",
+    "plain_explanation": "实际销售产生的金额，口径需要明确。",
+    "business_context": "在销售相关日报、ERP 页面或运营沟通中，经常会用“销售额”判断业务状态。",
+    "related_erp_fields": [
+      "订单编号",
+      "SKU 编码",
+      "店铺名称"
+    ],
+    "related_metrics": [
+      "销售额",
+      "净销售额",
+      "毛利率"
+    ],
+    "common_misunderstandings": "容易只看“销售额”的表面数值，而忽略统计口径、时间范围和业务状态。",
+    "analyst_view": "分析“销售额”时要追问来源字段、计算口径、是否扣除退款，以及它会影响哪些后续动作。",
+    "example": "例如日报中出现“销售额 异常”，应先确认口径，再看订单、库存、售后或投放数据。"
+  },
+  {
+    "id": "term-016",
+    "name": "净销售额",
+    "category": "销售",
+    "plain_explanation": "销售额扣除退款后的金额。",
+    "business_context": "在销售相关日报、ERP 页面或运营沟通中，经常会用“净销售额”判断业务状态。",
+    "related_erp_fields": [
+      "订单编号",
+      "SKU 编码",
+      "店铺名称"
+    ],
+    "related_metrics": [
+      "销售额",
+      "净销售额",
+      "毛利率"
+    ],
+    "common_misunderstandings": "容易只看“净销售额”的表面数值，而忽略统计口径、时间范围和业务状态。",
+    "analyst_view": "分析“净销售额”时要追问来源字段、计算口径、是否扣除退款，以及它会影响哪些后续动作。",
+    "example": "例如日报中出现“净销售额 异常”，应先确认口径，再看订单、库存、售后或投放数据。"
+  },
+  {
+    "id": "term-017",
+    "name": "客单价",
+    "category": "销售",
+    "plain_explanation": "平均每个订单带来的销售额。",
+    "business_context": "在销售相关日报、ERP 页面或运营沟通中，经常会用“客单价”判断业务状态。",
+    "related_erp_fields": [
+      "订单编号",
+      "SKU 编码",
+      "店铺名称"
+    ],
+    "related_metrics": [
+      "销售额",
+      "净销售额",
+      "毛利率"
+    ],
+    "common_misunderstandings": "容易只看“客单价”的表面数值，而忽略统计口径、时间范围和业务状态。",
+    "analyst_view": "分析“客单价”时要追问来源字段、计算口径、是否扣除退款，以及它会影响哪些后续动作。",
+    "example": "例如日报中出现“客单价 异常”，应先确认口径，再看订单、库存、售后或投放数据。"
+  },
+  {
+    "id": "term-018",
+    "name": "转化率",
+    "category": "运营",
+    "plain_explanation": "从访问到成交的转化比例。",
+    "business_context": "在运营相关日报、ERP 页面或运营沟通中，经常会用“转化率”判断业务状态。",
+    "related_erp_fields": [
+      "订单编号",
+      "SKU 编码",
+      "店铺名称"
+    ],
+    "related_metrics": [
+      "销售额",
+      "净销售额",
+      "毛利率"
+    ],
+    "common_misunderstandings": "容易只看“转化率”的表面数值，而忽略统计口径、时间范围和业务状态。",
+    "analyst_view": "分析“转化率”时要追问来源字段、计算口径、是否扣除退款，以及它会影响哪些后续动作。",
+    "example": "例如日报中出现“转化率 异常”，应先确认口径，再看订单、库存、售后或投放数据。"
+  },
+  {
+    "id": "term-019",
+    "name": "点击率",
+    "category": "运营",
+    "plain_explanation": "曝光后产生点击的比例。",
+    "business_context": "在运营相关日报、ERP 页面或运营沟通中，经常会用“点击率”判断业务状态。",
+    "related_erp_fields": [
+      "订单编号",
+      "SKU 编码",
+      "店铺名称"
+    ],
+    "related_metrics": [
+      "销售额",
+      "净销售额",
+      "毛利率"
+    ],
+    "common_misunderstandings": "容易只看“点击率”的表面数值，而忽略统计口径、时间范围和业务状态。",
+    "analyst_view": "分析“点击率”时要追问来源字段、计算口径、是否扣除退款，以及它会影响哪些后续动作。",
+    "example": "例如日报中出现“点击率 异常”，应先确认口径，再看订单、库存、售后或投放数据。"
+  },
+  {
+    "id": "term-020",
+    "name": "投流",
+    "category": "运营",
+    "plain_explanation": "通过付费推广获取流量。",
+    "business_context": "在运营相关日报、ERP 页面或运营沟通中，经常会用“投流”判断业务状态。",
+    "related_erp_fields": [
+      "订单编号",
+      "SKU 编码",
+      "店铺名称"
+    ],
+    "related_metrics": [
+      "销售额",
+      "净销售额",
+      "毛利率"
+    ],
+    "common_misunderstandings": "容易只看“投流”的表面数值，而忽略统计口径、时间范围和业务状态。",
+    "analyst_view": "分析“投流”时要追问来源字段、计算口径、是否扣除退款，以及它会影响哪些后续动作。",
+    "example": "例如日报中出现“投流 异常”，应先确认口径，再看订单、库存、售后或投放数据。"
+  },
+  {
+    "id": "term-021",
+    "name": "ROI",
+    "category": "运营",
+    "plain_explanation": "投入产出比，常看销售额与投放花费的关系。",
+    "business_context": "在运营相关日报、ERP 页面或运营沟通中，经常会用“ROI”判断业务状态。",
+    "related_erp_fields": [
+      "订单编号",
+      "SKU 编码",
+      "店铺名称"
+    ],
+    "related_metrics": [
+      "销售额",
+      "净销售额",
+      "毛利率"
+    ],
+    "common_misunderstandings": "容易只看“ROI”的表面数值，而忽略统计口径、时间范围和业务状态。",
+    "analyst_view": "分析“ROI”时要追问来源字段、计算口径、是否扣除退款，以及它会影响哪些后续动作。",
+    "example": "例如日报中出现“ROI 异常”，应先确认口径，再看订单、库存、售后或投放数据。"
+  },
+  {
+    "id": "term-022",
+    "name": "毛利",
+    "category": "财务",
+    "plain_explanation": "销售收入扣除商品成本和相关费用后的利润。",
+    "business_context": "在财务相关日报、ERP 页面或运营沟通中，经常会用“毛利”判断业务状态。",
+    "related_erp_fields": [
+      "订单编号",
+      "SKU 编码",
+      "店铺名称"
+    ],
+    "related_metrics": [
+      "销售额",
+      "净销售额",
+      "毛利率"
+    ],
+    "common_misunderstandings": "容易只看“毛利”的表面数值，而忽略统计口径、时间范围和业务状态。",
+    "analyst_view": "分析“毛利”时要追问来源字段、计算口径、是否扣除退款，以及它会影响哪些后续动作。",
+    "example": "例如日报中出现“毛利 异常”，应先确认口径，再看订单、库存、售后或投放数据。"
+  },
+  {
+    "id": "term-023",
+    "name": "毛利率",
+    "category": "财务",
+    "plain_explanation": "毛利占销售额的比例。",
+    "business_context": "在财务相关日报、ERP 页面或运营沟通中，经常会用“毛利率”判断业务状态。",
+    "related_erp_fields": [
+      "订单编号",
+      "SKU 编码",
+      "店铺名称"
+    ],
+    "related_metrics": [
+      "销售额",
+      "净销售额",
+      "毛利率"
+    ],
+    "common_misunderstandings": "容易只看“毛利率”的表面数值，而忽略统计口径、时间范围和业务状态。",
+    "analyst_view": "分析“毛利率”时要追问来源字段、计算口径、是否扣除退款，以及它会影响哪些后续动作。",
+    "example": "例如日报中出现“毛利率 异常”，应先确认口径，再看订单、库存、售后或投放数据。"
+  },
+  {
+    "id": "term-024",
+    "name": "退款率",
+    "category": "售后",
+    "plain_explanation": "退款金额或订单占销售的比例。",
+    "business_context": "在售后相关日报、ERP 页面或运营沟通中，经常会用“退款率”判断业务状态。",
+    "related_erp_fields": [
+      "订单编号",
+      "SKU 编码",
+      "店铺名称"
+    ],
+    "related_metrics": [
+      "销售额",
+      "净销售额",
+      "毛利率"
+    ],
+    "common_misunderstandings": "容易只看“退款率”的表面数值，而忽略统计口径、时间范围和业务状态。",
+    "analyst_view": "分析“退款率”时要追问来源字段、计算口径、是否扣除退款，以及它会影响哪些后续动作。",
+    "example": "例如日报中出现“退款率 异常”，应先确认口径，再看订单、库存、售后或投放数据。"
+  },
+  {
+    "id": "term-025",
+    "name": "退货",
+    "category": "售后",
+    "plain_explanation": "顾客把商品退回并产生售后处理。",
+    "business_context": "在售后相关日报、ERP 页面或运营沟通中，经常会用“退货”判断业务状态。",
+    "related_erp_fields": [
+      "订单编号",
+      "SKU 编码",
+      "店铺名称"
+    ],
+    "related_metrics": [
+      "销售额",
+      "净销售额",
+      "毛利率"
+    ],
+    "common_misunderstandings": "容易只看“退货”的表面数值，而忽略统计口径、时间范围和业务状态。",
+    "analyst_view": "分析“退货”时要追问来源字段、计算口径、是否扣除退款，以及它会影响哪些后续动作。",
+    "example": "例如日报中出现“退货 异常”，应先确认口径，再看订单、库存、售后或投放数据。"
+  },
+  {
+    "id": "term-026",
+    "name": "换货",
+    "category": "售后",
+    "plain_explanation": "顾客退回原商品并更换其他商品。",
+    "business_context": "在售后相关日报、ERP 页面或运营沟通中，经常会用“换货”判断业务状态。",
+    "related_erp_fields": [
+      "订单编号",
+      "SKU 编码",
+      "店铺名称"
+    ],
+    "related_metrics": [
+      "销售额",
+      "净销售额",
+      "毛利率"
+    ],
+    "common_misunderstandings": "容易只看“换货”的表面数值，而忽略统计口径、时间范围和业务状态。",
+    "analyst_view": "分析“换货”时要追问来源字段、计算口径、是否扣除退款，以及它会影响哪些后续动作。",
+    "example": "例如日报中出现“换货 异常”，应先确认口径，再看订单、库存、售后或投放数据。"
+  },
+  {
+    "id": "term-027",
+    "name": "售后",
+    "category": "售后",
+    "plain_explanation": "退款、退货、换货、补发等服务流程。",
+    "business_context": "在售后相关日报、ERP 页面或运营沟通中，经常会用“售后”判断业务状态。",
+    "related_erp_fields": [
+      "订单编号",
+      "SKU 编码",
+      "店铺名称"
+    ],
+    "related_metrics": [
+      "销售额",
+      "净销售额",
+      "毛利率"
+    ],
+    "common_misunderstandings": "容易只看“售后”的表面数值，而忽略统计口径、时间范围和业务状态。",
+    "analyst_view": "分析“售后”时要追问来源字段、计算口径、是否扣除退款，以及它会影响哪些后续动作。",
+    "example": "例如日报中出现“售后 异常”，应先确认口径，再看订单、库存、售后或投放数据。"
+  },
+  {
+    "id": "term-028",
+    "name": "发货时效",
+    "category": "物流",
+    "plain_explanation": "从付款或接单到发货所用时间。",
+    "business_context": "在物流相关日报、ERP 页面或运营沟通中，经常会用“发货时效”判断业务状态。",
+    "related_erp_fields": [
+      "订单编号",
+      "SKU 编码",
+      "店铺名称"
+    ],
+    "related_metrics": [
+      "销售额",
+      "净销售额",
+      "毛利率"
+    ],
+    "common_misunderstandings": "容易只看“发货时效”的表面数值，而忽略统计口径、时间范围和业务状态。",
+    "analyst_view": "分析“发货时效”时要追问来源字段、计算口径、是否扣除退款，以及它会影响哪些后续动作。",
+    "example": "例如日报中出现“发货时效 异常”，应先确认口径，再看订单、库存、售后或投放数据。"
+  },
+  {
+    "id": "term-029",
+    "name": "签收",
+    "category": "物流",
+    "plain_explanation": "物流显示顾客已收到商品。",
+    "business_context": "在物流相关日报、ERP 页面或运营沟通中，经常会用“签收”判断业务状态。",
+    "related_erp_fields": [
+      "订单编号",
+      "SKU 编码",
+      "店铺名称"
+    ],
+    "related_metrics": [
+      "销售额",
+      "净销售额",
+      "毛利率"
+    ],
+    "common_misunderstandings": "容易只看“签收”的表面数值，而忽略统计口径、时间范围和业务状态。",
+    "analyst_view": "分析“签收”时要追问来源字段、计算口径、是否扣除退款，以及它会影响哪些后续动作。",
+    "example": "例如日报中出现“签收 异常”，应先确认口径，再看订单、库存、售后或投放数据。"
+  },
+  {
+    "id": "term-030",
+    "name": "库存周转",
+    "category": "库存",
+    "plain_explanation": "库存从入库到售出的流转速度。",
+    "business_context": "在库存相关日报、ERP 页面或运营沟通中，经常会用“库存周转”判断业务状态。",
+    "related_erp_fields": [
+      "订单编号",
+      "SKU 编码",
+      "店铺名称"
+    ],
+    "related_metrics": [
+      "销售额",
+      "净销售额",
+      "毛利率"
+    ],
+    "common_misunderstandings": "容易只看“库存周转”的表面数值，而忽略统计口径、时间范围和业务状态。",
+    "analyst_view": "分析“库存周转”时要追问来源字段、计算口径、是否扣除退款，以及它会影响哪些后续动作。",
+    "example": "例如日报中出现“库存周转 异常”，应先确认口径，再看订单、库存、售后或投放数据。"
+  }
+]

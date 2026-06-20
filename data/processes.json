@@ -1,0 +1,918 @@
+[
+  {
+    "id": "process-001",
+    "process_name": "商品流程",
+    "description": "商品流程 用来理解电商业务从动作到数据记录的流转关系。",
+    "nodes": [
+      {
+        "node_name": "选品",
+        "explanation": "选品 是 商品流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "选品 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 选品 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "建档",
+        "explanation": "建档 是 商品流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "建档 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 建档 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "拍图",
+        "explanation": "拍图 是 商品流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "拍图 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 拍图 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "上架",
+        "explanation": "上架 是 商品流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "上架 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 上架 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "维护",
+        "explanation": "维护 是 商品流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "维护 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 维护 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "下架",
+        "explanation": "下架 是 商品流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "下架 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 下架 前后的数据变化，判断异常发生在哪个业务节点。"
+      }
+    ]
+  },
+  {
+    "id": "process-002",
+    "process_name": "订单流程",
+    "description": "订单流程 用来理解电商业务从动作到数据记录的流转关系。",
+    "nodes": [
+      {
+        "node_name": "顾客下单",
+        "explanation": "顾客下单 是 订单流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "顾客下单 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 顾客下单 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "付款",
+        "explanation": "付款 是 订单流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "付款 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 付款 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "ERP 接单",
+        "explanation": "ERP 接单 是 订单流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "ERP 接单 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 ERP 接单 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "审单",
+        "explanation": "审单 是 订单流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "审单 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 审单 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "分仓",
+        "explanation": "分仓 是 订单流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "分仓 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 分仓 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "打单",
+        "explanation": "打单 是 订单流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "打单 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 打单 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "出库",
+        "explanation": "出库 是 订单流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "出库 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 出库 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "发货",
+        "explanation": "发货 是 订单流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "发货 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 发货 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "物流揽收",
+        "explanation": "物流揽收 是 订单流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "物流揽收 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 物流揽收 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "签收",
+        "explanation": "签收 是 订单流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "签收 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 签收 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "售后",
+        "explanation": "售后 是 订单流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "售后 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 售后 前后的数据变化，判断异常发生在哪个业务节点。"
+      }
+    ]
+  },
+  {
+    "id": "process-003",
+    "process_name": "库存流程",
+    "description": "库存流程 用来理解电商业务从动作到数据记录的流转关系。",
+    "nodes": [
+      {
+        "node_name": "采购计划",
+        "explanation": "采购计划 是 库存流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "采购计划 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 采购计划 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "到货",
+        "explanation": "到货 是 库存流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "到货 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 到货 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "入库",
+        "explanation": "入库 是 库存流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "入库 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 入库 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "锁库存",
+        "explanation": "锁库存 是 库存流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "锁库存 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 锁库存 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "出库",
+        "explanation": "出库 是 库存流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "出库 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 出库 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "盘点",
+        "explanation": "盘点 是 库存流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "盘点 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 盘点 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "调整",
+        "explanation": "调整 是 库存流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "调整 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 调整 前后的数据变化，判断异常发生在哪个业务节点。"
+      }
+    ]
+  },
+  {
+    "id": "process-004",
+    "process_name": "售后流程",
+    "description": "售后流程 用来理解电商业务从动作到数据记录的流转关系。",
+    "nodes": [
+      {
+        "node_name": "顾客申请",
+        "explanation": "顾客申请 是 售后流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "顾客申请 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 顾客申请 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "客服审核",
+        "explanation": "客服审核 是 售后流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "客服审核 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 客服审核 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "退货寄回",
+        "explanation": "退货寄回 是 售后流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "退货寄回 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 退货寄回 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "仓库验收",
+        "explanation": "仓库验收 是 售后流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "仓库验收 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 仓库验收 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "退款处理",
+        "explanation": "退款处理 是 售后流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "退款处理 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 退款处理 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "售后复盘",
+        "explanation": "售后复盘 是 售后流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "售后复盘 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 售后复盘 前后的数据变化，判断异常发生在哪个业务节点。"
+      }
+    ]
+  },
+  {
+    "id": "process-005",
+    "process_name": "运营流程",
+    "description": "运营流程 用来理解电商业务从动作到数据记录的流转关系。",
+    "nodes": [
+      {
+        "node_name": "选品",
+        "explanation": "选品 是 运营流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "选品 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 选品 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "定价",
+        "explanation": "定价 是 运营流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "定价 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 定价 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "上架",
+        "explanation": "上架 是 运营流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "上架 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 上架 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "投流",
+        "explanation": "投流 是 运营流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "投流 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 投流 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "活动",
+        "explanation": "活动 是 运营流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "活动 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 活动 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "看数据",
+        "explanation": "看数据 是 运营流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "看数据 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 看数据 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "调价",
+        "explanation": "调价 是 运营流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "调价 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 调价 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "补货 / 清仓",
+        "explanation": "补货 / 清仓 是 运营流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "补货 / 清仓 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 补货 / 清仓 前后的数据变化，判断异常发生在哪个业务节点。"
+      }
+    ]
+  },
+  {
+    "id": "process-006",
+    "process_name": "财务核算流程",
+    "description": "财务核算流程 用来理解电商业务从动作到数据记录的流转关系。",
+    "nodes": [
+      {
+        "node_name": "订单确认",
+        "explanation": "订单确认 是 财务核算流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "订单确认 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 订单确认 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "收入归集",
+        "explanation": "收入归集 是 财务核算流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "收入归集 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 收入归集 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "成本匹配",
+        "explanation": "成本匹配 是 财务核算流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "成本匹配 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 成本匹配 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "平台费用",
+        "explanation": "平台费用 是 财务核算流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "平台费用 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 平台费用 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "退款扣减",
+        "explanation": "退款扣减 是 财务核算流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "退款扣减 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 退款扣减 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "毛利核算",
+        "explanation": "毛利核算 是 财务核算流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "毛利核算 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 毛利核算 前后的数据变化，判断异常发生在哪个业务节点。"
+      }
+    ]
+  },
+  {
+    "id": "process-007",
+    "process_name": "物流发货流程",
+    "description": "物流发货流程 用来理解电商业务从动作到数据记录的流转关系。",
+    "nodes": [
+      {
+        "node_name": "订单分仓",
+        "explanation": "订单分仓 是 物流发货流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "订单分仓 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 订单分仓 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "打单",
+        "explanation": "打单 是 物流发货流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "打单 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 打单 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "拣货",
+        "explanation": "拣货 是 物流发货流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "拣货 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 拣货 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "复核",
+        "explanation": "复核 是 物流发货流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "复核 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 复核 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "出库",
+        "explanation": "出库 是 物流发货流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "出库 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 出库 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "揽收",
+        "explanation": "揽收 是 物流发货流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "揽收 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 揽收 前后的数据变化，判断异常发生在哪个业务节点。"
+      },
+      {
+        "node_name": "签收",
+        "explanation": "签收 是 物流发货流程 中的关键节点，会产生或改变 ERP 数据。",
+        "responsible_role": "运营 / ERP 管理员 / 仓库 / 财务 / 客服",
+        "related_erp_fields": [
+          "订单编号",
+          "SKU 编码",
+          "订单状态"
+        ],
+        "related_metrics": [
+          "订单数",
+          "销售额",
+          "发货时效"
+        ],
+        "possible_problems": "签收 环节可能出现状态未同步、字段缺失、库存不准或处理延迟。",
+        "analyst_view": "关注 签收 前后的数据变化，判断异常发生在哪个业务节点。"
+      }
+    ]
+  }
+]

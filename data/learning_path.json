@@ -1,0 +1,85 @@
+[
+  {
+    "stage_id": "stage-1",
+    "stage_name": "阶段 1：认识电商术语",
+    "goal": "知道常见电商术语是什么意思。",
+    "suggested_modules": [
+      "电商术语库",
+      "业务练习题"
+    ],
+    "key_topics": [
+      "SKU",
+      "SPU",
+      "GMV",
+      "退款率",
+      "库存"
+    ],
+    "practice_tasks": [
+      "每天学习 3 个术语",
+      "把日报中不懂的词记录到笔记"
+    ],
+    "completion_standard": "能用自己的话解释 30 个常见术语。"
+  },
+  {
+    "stage_id": "stage-2",
+    "stage_name": "阶段 2：理解 ERP 字段和业务流程",
+    "goal": "知道字段背后对应哪个业务动作。",
+    "suggested_modules": [
+      "ERP 字段解释器",
+      "业务流程地图"
+    ],
+    "key_topics": [
+      "订单状态",
+      "库存字段",
+      "发货时间",
+      "售后状态"
+    ],
+    "practice_tasks": [
+      "每天理解 3 个 ERP 字段",
+      "画出一个订单流程"
+    ],
+    "completion_standard": "能把主要字段对应到商品、订单、库存、售后、财务流程。"
+  },
+  {
+    "stage_id": "stage-3",
+    "stage_name": "阶段 3：理解指标和口径",
+    "goal": "知道销售额、毛利率、退款率、ROI 等指标怎么计算，容易有哪些口径问题。",
+    "suggested_modules": [
+      "指标口径库",
+      "指标计算器"
+    ],
+    "key_topics": [
+      "净销售额",
+      "毛利率",
+      "ROI",
+      "退款率"
+    ],
+    "practice_tasks": [
+      "用计算器练习 5 个指标",
+      "记录每个指标的口径坑"
+    ],
+    "completion_standard": "能说明核心指标的公式、字段来源和常见误区。"
+  },
+  {
+    "stage_id": "stage-4",
+    "stage_name": "阶段 4：理解运营动作和业务分析",
+    "goal": "知道投流、降价、活动、清仓、补货等动作会影响哪些指标。",
+    "suggested_modules": [
+      "运营动作库",
+      "业务场景分析库",
+      "业务练习题"
+    ],
+    "key_topics": [
+      "投流",
+      "活动",
+      "清仓",
+      "补货",
+      "售后"
+    ],
+    "practice_tasks": [
+      "每天分析 1 个业务场景",
+      "把运营动作和指标变化写成笔记"
+    ],
+    "completion_standard": "能从数据异常提出 2 到 3 个可能业务原因和下一步查看数据。"
+  }
+]
