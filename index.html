@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2563eb">
+  <title>电商 ERP 业务学习驾驶舱</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="主导航">
+      <div class="brand">
+        <img src="icons/icon.svg" alt="" class="brand-icon">
+        <div><strong>ERP 学习</strong><span>业务学习驾驶舱</span></div>
+      </div>
+      <nav class="nav-list">
+        <button class="nav-button active" data-module="dashboard">首页</button>
+        <button class="nav-button" data-module="terms">电商术语库</button>
+        <button class="nav-button" data-module="fields">ERP 字段解释器</button>
+        <button class="nav-button" data-module="processes">业务流程地图</button>
+        <button class="nav-button" data-module="metrics">指标口径库</button>
+        <button class="nav-button" data-module="actions">运营动作库</button>
+        <button class="nav-button" data-module="scenarios">业务场景分析库</button>
+        <button class="nav-button" data-module="quizzes">业务练习题</button>
+        <button class="nav-button" data-module="calculator">指标计算器</button>
+        <button class="nav-button" data-module="notes">我的学习笔记</button>
+        <button class="nav-button" data-module="backup">数据备份与同步</button>
+        <button class="nav-button" data-module="syncCenter">同步中心</button>
+      </nav>
+    </aside>
+    <div class="main-area">
+      <header class="topbar">
+        <div><p class="eyebrow">本地优先 PWA</p><h1>电商 ERP 业务学习驾驶舱</h1></div>
+        <div class="module-title" id="currentModuleName">首页</div>
+      </header>
+      <main>
+        <section class="module-section active" id="dashboard"><div id="dashboardContent"></div></section>
+        <section class="module-section" id="terms"><div class="section-head"><h2>电商术语库</h2><p>沉淀每天遇到的电商术语，理解它们和 ERP 字段、指标之间的关系。</p></div><div class="toolbar"><input id="termsSearch" class="search-input" placeholder="搜索术语、解释、场景"><select id="termsFilter" class="select-input"></select><button id="termsReset" class="secondary-button">重置本地新增</button></div><div id="termsFormArea"></div><div id="termsList" class="card-grid"></div></section>
+        <section class="module-section" id="fields"><div class="section-head"><h2>ERP 字段解释器</h2><p>把字段名翻译成业务含义，理解字段背后发生了什么。</p></div><div class="toolbar"><input id="fieldsSearch" class="search-input" placeholder="搜索字段、模块、含义"><select id="fieldsFilter" class="select-input"></select><button id="fieldsReset" class="secondary-button">重置本地新增</button></div><div id="fieldsFormArea"></div><div id="fieldsList" class="card-grid"></div></section>
+        <section class="module-section" id="processes"><div class="section-head"><h2>业务流程地图</h2><p>用流程节点理解商品、订单、库存、售后、运营、财务和物流如何流转。</p></div><div class="toolbar"><input id="processesSearch" class="search-input" placeholder="搜索流程名称或节点"></div><div id="processesList" class="stack-list"></div></section>
+        <section class="module-section" id="metrics"><div class="section-head"><h2>指标口径库</h2><p>理解指标公式、字段来源、常见口径坑和分析用途。</p></div><div class="toolbar"><input id="metricsSearch" class="search-input" placeholder="搜索指标、公式、用途"><select id="metricsFilter" class="select-input"></select><button id="metricsReset" class="secondary-button">重置本地新增</button></div><div id="metricsFormArea"></div><div id="metricsList" class="card-grid"></div></section>
+        <section class="module-section" id="actions"><div class="section-head"><h2>运营动作库</h2><p>理解运营动作会影响哪些指标，以及可能带来的风险。</p></div><div class="toolbar"><input id="actionsSearch" class="search-input" placeholder="搜索动作、类型、影响指标"><select id="actionsFilter" class="select-input"></select><button id="actionsReset" class="secondary-button">重置本地新增</button></div><div id="actionsFormArea"></div><div id="actionsList" class="card-grid"></div></section>
+        <section class="module-section" id="scenarios"><div class="section-head"><h2>业务场景分析库</h2><p>用模拟业务问题训练从数据现象倒推业务原因。</p></div><div class="toolbar"><input id="scenariosSearch" class="search-input" placeholder="搜索场景、原因、分析思路"><select id="scenariosFilter" class="select-input"></select><button id="scenariosReset" class="secondary-button">重置本地新增</button></div><div id="scenariosFormArea"></div><div id="scenariosList" class="card-grid"></div></section>
+        <section class="module-section" id="quizzes"><div class="section-head"><h2>业务练习题</h2><p>通过贴近 ERP 和日报的题目练习业务判断。</p></div><div class="toolbar"><select id="quizzesFilter" class="select-input"></select></div><div id="quizzesList" class="stack-list"></div></section>
+        <section class="module-section" id="calculator"><div class="section-head"><h2>指标计算器</h2><p>所有计算只在本地浏览器完成，不上传任何数据。</p></div><div class="tool-panel"><label for="calculatorType">选择计算类型</label><select id="calculatorType" class="select-input"></select><div id="calculatorInputs" class="form-grid"></div><button id="calculateButton" class="primary-button">计算</button><div id="calculatorResult" class="result-box"></div></div></section>
+        <section class="module-section" id="notes"><div class="section-head"><h2>我的学习笔记</h2><p>记录每天遇到的不懂内容，只保存在当前浏览器。</p></div><div id="notesFormArea"></div><div class="toolbar"><input id="notesSearch" class="search-input" placeholder="搜索笔记内容"></div><div id="notesList" class="stack-list"></div></section>
+
+                <section class="module-section" id="syncCenter">
+          <div class="section-head"><h2>同步中心</h2><p>使用 GitHub Gist 在手机和电脑之间手动同步学习数据。同步是可选功能，不懂时建议只用“普通同步”。</p></div>
+          <div class="sync-layout">
+            <div class="tool-panel"><h3>同步状态</h3><div class="status-grid" id="syncStatusPanel"></div></div>
+            <div class="tool-panel"><h3>GitHub Gist 配置</h3><p class="warning-text">Token 只保存在当前浏览器，不会导出、不会上传到 Gist。不要把 token 发给任何人，建议只给 Gist 写权限。</p><div class="form-grid"><div class="form-field full"><label>GitHub Personal Access Token</label><div class="token-row"><input id="syncTokenInput" type="password" autocomplete="off" placeholder="粘贴你自己创建的 GitHub token"><button id="toggleTokenButton" class="secondary-button" type="button">显示</button></div></div><div class="form-field"><label>Gist ID</label><input id="syncGistIdInput" type="text" placeholder="例如一串 Gist ID"></div><div class="form-field"><label>设备名称</label><input id="syncDeviceNameInput" type="text" placeholder="例如 我的电脑 / 我的手机"></div><div class="form-field"><label>Gist 文件名</label><input id="syncFileNameInput" type="text" value="erp-learning-sync.json"></div></div><div class="toolbar"><button id="saveSyncConfigButton" class="primary-button">保存配置</button><button id="testGistButton" class="secondary-button">测试连接</button><button id="clearSyncConfigButton" class="danger-button">清除配置</button></div></div>
+            <div class="tool-panel"><h3>普通同步</h3><p>普通同步会先拉取云端数据，再按 id 合并本地和云端，保留 updatedAt 较新的版本。删除采用软删除。</p><button id="normalSyncButton" class="primary-button">普通同步</button><label class="inline-check"><input id="autoSyncToggle" type="checkbox"> 开启自动同步（默认关闭，每 5 分钟检查一次）</label></div>
+            <div class="tool-panel"><h3>强制操作</h3><p>强制上传会用当前设备数据覆盖云端；强制拉取会用云端覆盖当前设备。请谨慎使用。</p><div class="toolbar"><button id="forceUploadButton" class="danger-button">强制上传：本地覆盖云端</button><button id="forceDownloadButton" class="danger-button">强制拉取：云端覆盖本地</button></div></div>
+            <div class="tool-panel"><h3>本地备份</h3><p>保留原来的本地 JSON 导出 / 导入。导出文件不包含 GitHub token。</p><div class="toolbar"><button id="syncExportBackupButton" class="secondary-button">导出本地备份 JSON</button><label class="file-button">导入本地备份 JSON<input id="syncImportBackupFile" type="file" accept="application/json"></label><button id="syncClearLocalButton" class="danger-button">清空本地用户数据</button></div></div>
+            <div class="tool-panel full-width"><h3>同步日志和冲突日志</h3><div class="log-columns"><div><h4>最近 20 条同步日志</h4><div id="syncLogsList" class="stack-list"></div></div><div><h4>最近 20 条冲突日志</h4><div id="conflictLogsList" class="stack-list"></div></div></div></div>
+          </div>
+        </section>
+
+<section class="module-section" id="backup"><div class="section-head"><h2>数据备份与同步</h2><p>通过导出和导入 JSON 文件，在电脑和手机之间手动同步本地数据。</p></div><div class="tool-panel backup-actions"><button id="exportButton" class="primary-button">导出本地数据</button><label class="file-button">导入本地数据<input id="importFile" type="file" accept="application/json"></label><button id="clearLocalButton" class="danger-button">清空本地用户数据</button></div><div id="backupSummary" class="card-grid"></div></section>
+      </main>
+    </div>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>

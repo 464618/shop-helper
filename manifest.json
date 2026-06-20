@@ -1,0 +1,23 @@
+{
+  "name": "电商 ERP 业务学习驾驶舱",
+  "short_name": "ERP学习",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#2563eb",
+  "background_color": "#f7f8fa",
+  "description": "用于学习电商业务、ERP 字段、运营动作和数据分析指标的本地优先 PWA 工具",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
