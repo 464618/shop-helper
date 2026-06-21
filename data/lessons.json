@@ -1,0 +1,1112 @@
+[
+    {
+        "id":  "lesson-001",
+        "stage_id":  "stage-1",
+        "title":  "电商卖货的基本链路是什么",
+        "difficulty":  "入门",
+        "estimated_minutes":  10,
+        "learning_goal":  "理解电商从商品上架到售后完成的基础链路。",
+        "core_explanation":  "电商卖货不是只有成交，还包括商品、订单、支付、库存、发货、物流、售后和财务结算。",
+        "business_example":  "用户在店铺下单后，系统会检查商品和库存，完成支付后进入审单、出库、发货和售后链路。",
+        "erp_connection":  "ERP 通常记录商品档案、订单状态、库存状态、发货状态和售后状态。",
+        "operation_connection":  "上新、定价、活动和投流都会影响链路上的数据。",
+        "data_analysis_connection":  "分析时要把销售额、订单数、退款率、库存和发货时效放在同一条链路里看。",
+        "common_misunderstandings":  [
+                                         "只看单个数字，不看它所在的业务环节。",
+                                         "没有先确认数据口径，就直接下结论。"
+                                     ],
+        "key_takeaways":  [
+                              "理解电商从商品上架到售后完成的基础链路。",
+                              "学习时要把术语、ERP 字段、运营动作和指标放在同一条业务链路里理解。"
+                          ],
+        "related_terms":  [
+                              "SKU",
+                              "订单",
+                              "库存",
+                              "销售额"
+                          ],
+        "related_metrics":  [
+                                "销售额",
+                                "订单数",
+                                "毛利率",
+                                "退款率",
+                                "ROI"
+                            ],
+        "mini_quiz_ids":  [
+
+                          ]
+    },
+    {
+        "id":  "lesson-002",
+        "stage_id":  "stage-2",
+        "title":  "SKU 和 SPU 到底有什么区别",
+        "difficulty":  "入门",
+        "estimated_minutes":  10,
+        "learning_goal":  "分清 SPU 和 SKU，理解商品分析为什么要下钻到规格。",
+        "core_explanation":  "SPU 通常代表一组商品，SKU 是可以具体售卖和管理库存的最小规格。",
+        "business_example":  "同一款鞋是一个 SPU，黑色 38 码和白色 39 码是不同 SKU。",
+        "erp_connection":  "ERP 的库存、条码、出库通常落在 SKU 层。",
+        "operation_connection":  "运营看款式表现时看 SPU，看缺货和尺码问题时看 SKU。",
+        "data_analysis_connection":  "分析商品时要明确是在看款、看品类，还是看具体规格。",
+        "common_misunderstandings":  [
+                                         "只看单个数字，不看它所在的业务环节。",
+                                         "没有先确认数据口径，就直接下结论。"
+                                     ],
+        "key_takeaways":  [
+                              "分清 SPU 和 SKU，理解商品分析为什么要下钻到规格。",
+                              "学习时要把术语、ERP 字段、运营动作和指标放在同一条业务链路里理解。"
+                          ],
+        "related_terms":  [
+                              "SKU",
+                              "订单",
+                              "库存",
+                              "销售额"
+                          ],
+        "related_metrics":  [
+                                "销售额",
+                                "订单数",
+                                "毛利率",
+                                "退款率",
+                                "ROI"
+                            ],
+        "mini_quiz_ids":  [
+
+                          ]
+    },
+    {
+        "id":  "lesson-003",
+        "stage_id":  "stage-2",
+        "title":  "为什么尺码和颜色会影响库存分析",
+        "difficulty":  "入门",
+        "estimated_minutes":  10,
+        "learning_goal":  "理解颜色、尺码等规格对库存和销售判断的影响。",
+        "core_explanation":  "库存风险往往不在整个商品，而在某个颜色或尺码。",
+        "business_example":  "黑色 M 码卖爆缺货，但绿色 XXL 积压，会导致总库存看起来充足。",
+        "erp_connection":  "ERP 需要记录颜色、尺码、SKU 编码和库存数量。",
+        "operation_connection":  "运营补货、清仓、主推款都要看规格维度。",
+        "data_analysis_connection":  "分析库存时不能只看总数，要看 SKU 结构。",
+        "common_misunderstandings":  [
+                                         "只看单个数字，不看它所在的业务环节。",
+                                         "没有先确认数据口径，就直接下结论。"
+                                     ],
+        "key_takeaways":  [
+                              "理解颜色、尺码等规格对库存和销售判断的影响。",
+                              "学习时要把术语、ERP 字段、运营动作和指标放在同一条业务链路里理解。"
+                          ],
+        "related_terms":  [
+                              "SKU",
+                              "订单",
+                              "库存",
+                              "销售额"
+                          ],
+        "related_metrics":  [
+                                "销售额",
+                                "订单数",
+                                "毛利率",
+                                "退款率",
+                                "ROI"
+                            ],
+        "mini_quiz_ids":  [
+
+                          ]
+    },
+    {
+        "id":  "lesson-004",
+        "stage_id":  "stage-2",
+        "title":  "预售和现货有什么业务差别",
+        "difficulty":  "入门",
+        "estimated_minutes":  12,
+        "learning_goal":  "理解预售和现货在发货、库存和用户体验上的差异。",
+        "core_explanation":  "现货通常可以较快发货，预售先收订单再按计划发货或生产。",
+        "business_example":  "预售订单很多不代表马上能发货，也可能带来客服压力。",
+        "erp_connection":  "ERP 会记录预售标记、预计发货时间、库存状态和订单状态。",
+        "operation_connection":  "预售适合测款和降低库存压力，但要控制承诺时间。",
+        "data_analysis_connection":  "分析预售要同时看订单、发货时效、退款和售后。",
+        "common_misunderstandings":  [
+                                         "只看单个数字，不看它所在的业务环节。",
+                                         "没有先确认数据口径，就直接下结论。"
+                                     ],
+        "key_takeaways":  [
+                              "理解预售和现货在发货、库存和用户体验上的差异。",
+                              "学习时要把术语、ERP 字段、运营动作和指标放在同一条业务链路里理解。"
+                          ],
+        "related_terms":  [
+                              "SKU",
+                              "订单",
+                              "库存",
+                              "销售额"
+                          ],
+        "related_metrics":  [
+                                "销售额",
+                                "订单数",
+                                "毛利率",
+                                "退款率",
+                                "ROI"
+                            ],
+        "mini_quiz_ids":  [
+
+                          ]
+    },
+    {
+        "id":  "lesson-005",
+        "stage_id":  "stage-3",
+        "title":  "一个订单从下单到发货经过哪些环节",
+        "difficulty":  "入门",
+        "estimated_minutes":  12,
+        "learning_goal":  "理解订单从创建到发货的主要节点。",
+        "core_explanation":  "订单通常经过下单、付款、审单、分仓、打单、出库、发货、揽收等环节。",
+        "business_example":  "用户付款后，仓库不一定马上发货，中间可能有审单和库存占用。",
+        "erp_connection":  "ERP 记录订单状态、支付时间、仓库、出库单和物流单。",
+        "operation_connection":  "运营和客服需要关注订单卡在哪个节点。",
+        "data_analysis_connection":  "分析发货问题要按流程节点拆解。",
+        "common_misunderstandings":  [
+                                         "只看单个数字，不看它所在的业务环节。",
+                                         "没有先确认数据口径，就直接下结论。"
+                                     ],
+        "key_takeaways":  [
+                              "理解订单从创建到发货的主要节点。",
+                              "学习时要把术语、ERP 字段、运营动作和指标放在同一条业务链路里理解。"
+                          ],
+        "related_terms":  [
+                              "SKU",
+                              "订单",
+                              "库存",
+                              "销售额"
+                          ],
+        "related_metrics":  [
+                                "销售额",
+                                "订单数",
+                                "毛利率",
+                                "退款率",
+                                "ROI"
+                            ],
+        "mini_quiz_ids":  [
+
+                          ]
+    },
+    {
+        "id":  "lesson-006",
+        "stage_id":  "stage-4",
+        "title":  "为什么库存有货但不能发货",
+        "difficulty":  "中等",
+        "estimated_minutes":  12,
+        "learning_goal":  "理解库存有货和可发货不是同一件事。",
+        "core_explanation":  "实际库存有货，但如果被订单锁定、在不可用仓库、质检异常或系统占用，就不能发货。",
+        "business_example":  "仓库显示 100 件，但可用库存只有 5 件，新增订单可能无法发。",
+        "erp_connection":  "ERP 需要区分实际库存、可用库存、锁定库存和仓库状态。",
+        "operation_connection":  "运营不能只看总库存决定是否加大投流。",
+        "data_analysis_connection":  "分析发货失败要看可用库存和锁定库存。",
+        "common_misunderstandings":  [
+                                         "只看单个数字，不看它所在的业务环节。",
+                                         "没有先确认数据口径，就直接下结论。"
+                                     ],
+        "key_takeaways":  [
+                              "理解库存有货和可发货不是同一件事。",
+                              "学习时要把术语、ERP 字段、运营动作和指标放在同一条业务链路里理解。"
+                          ],
+        "related_terms":  [
+                              "SKU",
+                              "订单",
+                              "库存",
+                              "销售额"
+                          ],
+        "related_metrics":  [
+                                "销售额",
+                                "订单数",
+                                "毛利率",
+                                "退款率",
+                                "ROI"
+                            ],
+        "mini_quiz_ids":  [
+
+                          ]
+    },
+    {
+        "id":  "lesson-007",
+        "stage_id":  "stage-4",
+        "title":  "可用库存、锁定库存、实际库存的区别",
+        "difficulty":  "中等",
+        "estimated_minutes":  12,
+        "learning_goal":  "掌握库存分析最核心的三个库存口径。",
+        "core_explanation":  "实际库存是仓里实物数量，锁定库存是被订单或规则占用的数量，可用库存才是还能继续销售或发货的数量。",
+        "business_example":  "实际 100 件，锁定 80 件，可用只有 20 件。",
+        "erp_connection":  "ERP 库存字段必须明确口径，否则容易误判缺货。",
+        "operation_connection":  "运营补货和清仓都要看可用库存。",
+        "data_analysis_connection":  "库存分析先确认口径，再下结论。",
+        "common_misunderstandings":  [
+                                         "只看单个数字，不看它所在的业务环节。",
+                                         "没有先确认数据口径，就直接下结论。"
+                                     ],
+        "key_takeaways":  [
+                              "掌握库存分析最核心的三个库存口径。",
+                              "学习时要把术语、ERP 字段、运营动作和指标放在同一条业务链路里理解。"
+                          ],
+        "related_terms":  [
+                              "SKU",
+                              "订单",
+                              "库存",
+                              "销售额"
+                          ],
+        "related_metrics":  [
+                                "销售额",
+                                "订单数",
+                                "毛利率",
+                                "退款率",
+                                "ROI"
+                            ],
+        "mini_quiz_ids":  [
+
+                          ]
+    },
+    {
+        "id":  "lesson-008",
+        "stage_id":  "stage-4",
+        "title":  "缺货、超卖、库存积压分别是什么意思",
+        "difficulty":  "入门",
+        "estimated_minutes":  10,
+        "learning_goal":  "理解三类常见库存问题。",
+        "core_explanation":  "缺货是需求大于可用库存，超卖是卖出超过可履约能力，积压是库存长期卖不动。",
+        "business_example":  "爆款缺货会损失销售，冷门色积压会占用资金。",
+        "erp_connection":  "ERP 通过库存、订单、发货和退货记录反映这些问题。",
+        "operation_connection":  "运营需要在补货、限售、清仓之间平衡。",
+        "data_analysis_connection":  "库存问题要结合销量、库存和发货能力判断。",
+        "common_misunderstandings":  [
+                                         "只看单个数字，不看它所在的业务环节。",
+                                         "没有先确认数据口径，就直接下结论。"
+                                     ],
+        "key_takeaways":  [
+                              "理解三类常见库存问题。",
+                              "学习时要把术语、ERP 字段、运营动作和指标放在同一条业务链路里理解。"
+                          ],
+        "related_terms":  [
+                              "SKU",
+                              "订单",
+                              "库存",
+                              "销售额"
+                          ],
+        "related_metrics":  [
+                                "销售额",
+                                "订单数",
+                                "毛利率",
+                                "退款率",
+                                "ROI"
+                            ],
+        "mini_quiz_ids":  [
+
+                          ]
+    },
+    {
+        "id":  "lesson-009",
+        "stage_id":  "stage-5",
+        "title":  "退款为什么会影响净销售额",
+        "difficulty":  "入门",
+        "estimated_minutes":  10,
+        "learning_goal":  "理解销售额、退款和净销售额的关系。",
+        "core_explanation":  "销售发生后，如果产生退款，最终留下来的收入会减少。",
+        "business_example":  "活动当天 GMV 高，但后续退款多，净销售额可能并不好。",
+        "erp_connection":  "ERP 需要记录退款金额、退款时间和售后状态。",
+        "operation_connection":  "运营复盘不能只看活动当天成交。",
+        "data_analysis_connection":  "净销售额比 GMV 更接近实际经营结果。",
+        "common_misunderstandings":  [
+                                         "只看单个数字，不看它所在的业务环节。",
+                                         "没有先确认数据口径，就直接下结论。"
+                                     ],
+        "key_takeaways":  [
+                              "理解销售额、退款和净销售额的关系。",
+                              "学习时要把术语、ERP 字段、运营动作和指标放在同一条业务链路里理解。"
+                          ],
+        "related_terms":  [
+                              "SKU",
+                              "订单",
+                              "库存",
+                              "销售额"
+                          ],
+        "related_metrics":  [
+                                "销售额",
+                                "订单数",
+                                "毛利率",
+                                "退款率",
+                                "ROI"
+                            ],
+        "mini_quiz_ids":  [
+
+                          ]
+    },
+    {
+        "id":  "lesson-010",
+        "stage_id":  "stage-5",
+        "title":  "退货入库为什么会影响库存",
+        "difficulty":  "入门",
+        "estimated_minutes":  10,
+        "learning_goal":  "理解售后退货和库存回流的关系。",
+        "core_explanation":  "退货商品只有完成入库并通过质检，才可能重新变成可售库存。",
+        "business_example":  "用户退货在路上时，系统不能直接把它当可售库存。",
+        "erp_connection":  "ERP 会记录退货单、入库状态、质检状态和库存变化。",
+        "operation_connection":  "运营判断库存时要区分退货在途和已入库。",
+        "data_analysis_connection":  "售后和库存是连在一起的。",
+        "common_misunderstandings":  [
+                                         "只看单个数字，不看它所在的业务环节。",
+                                         "没有先确认数据口径，就直接下结论。"
+                                     ],
+        "key_takeaways":  [
+                              "理解售后退货和库存回流的关系。",
+                              "学习时要把术语、ERP 字段、运营动作和指标放在同一条业务链路里理解。"
+                          ],
+        "related_terms":  [
+                              "SKU",
+                              "订单",
+                              "库存",
+                              "销售额"
+                          ],
+        "related_metrics":  [
+                                "销售额",
+                                "订单数",
+                                "毛利率",
+                                "退款率",
+                                "ROI"
+                            ],
+        "mini_quiz_ids":  [
+
+                          ]
+    },
+    {
+        "id":  "lesson-011",
+        "stage_id":  "stage-6",
+        "title":  "运营为什么要降价",
+        "difficulty":  "入门",
+        "estimated_minutes":  10,
+        "learning_goal":  "理解降价的目的和代价。",
+        "core_explanation":  "降价可以提高转化、清理库存、参与活动，但会压低毛利。",
+        "business_example":  "滞销 SKU 降价后销量变好，但毛利率下降。",
+        "erp_connection":  "ERP 和订单数据会体现成交价、优惠金额和毛利变化。",
+        "operation_connection":  "运营降价要结合库存压力和利润目标。",
+        "data_analysis_connection":  "降价不是好坏问题，而是目标和代价问题。",
+        "common_misunderstandings":  [
+                                         "只看单个数字，不看它所在的业务环节。",
+                                         "没有先确认数据口径，就直接下结论。"
+                                     ],
+        "key_takeaways":  [
+                              "理解降价的目的和代价。",
+                              "学习时要把术语、ERP 字段、运营动作和指标放在同一条业务链路里理解。"
+                          ],
+        "related_terms":  [
+                              "SKU",
+                              "订单",
+                              "库存",
+                              "销售额"
+                          ],
+        "related_metrics":  [
+                                "销售额",
+                                "订单数",
+                                "毛利率",
+                                "退款率",
+                                "ROI"
+                            ],
+        "mini_quiz_ids":  [
+
+                          ]
+    },
+    {
+        "id":  "lesson-012",
+        "stage_id":  "stage-6",
+        "title":  "投流到底在投什么",
+        "difficulty":  "入门",
+        "estimated_minutes":  10,
+        "learning_goal":  "理解投流的业务含义。",
+        "core_explanation":  "投流是花钱买曝光、点击或转化机会，最终要看投入和产出是否匹配。",
+        "business_example":  "广告花费增加后，点击多了，但不一定成交多。",
+        "erp_connection":  "ERP 通常不直接记录所有广告细节，但会和订单渠道、销售数据关联。",
+        "operation_connection":  "运营通过投流获取流量，也要关注转化和毛利。",
+        "data_analysis_connection":  "投流不能只看销售额，要看 ROI 和利润。",
+        "common_misunderstandings":  [
+                                         "只看单个数字，不看它所在的业务环节。",
+                                         "没有先确认数据口径，就直接下结论。"
+                                     ],
+        "key_takeaways":  [
+                              "理解投流的业务含义。",
+                              "学习时要把术语、ERP 字段、运营动作和指标放在同一条业务链路里理解。"
+                          ],
+        "related_terms":  [
+                              "SKU",
+                              "订单",
+                              "库存",
+                              "销售额"
+                          ],
+        "related_metrics":  [
+                                "销售额",
+                                "订单数",
+                                "毛利率",
+                                "退款率",
+                                "ROI"
+                            ],
+        "mini_quiz_ids":  [
+
+                          ]
+    },
+    {
+        "id":  "lesson-013",
+        "stage_id":  "stage-7",
+        "title":  "ROI 和投产比怎么理解",
+        "difficulty":  "中等",
+        "estimated_minutes":  12,
+        "learning_goal":  "理解 ROI / 投产比的基本口径。",
+        "core_explanation":  "ROI 常用于衡量投流产出，通常是销售额或成交金额除以广告花费。",
+        "business_example":  "花 100 元广告带来 500 元销售额，ROI 是 5。",
+        "erp_connection":  "ERP 销售数据需要和广告花费数据口径对齐。",
+        "operation_connection":  "运营会用 ROI 判断投流是否值得继续。",
+        "data_analysis_connection":  "ROI 高不一定赚钱，还要看毛利和退款。",
+        "common_misunderstandings":  [
+                                         "只看单个数字，不看它所在的业务环节。",
+                                         "没有先确认数据口径，就直接下结论。"
+                                     ],
+        "key_takeaways":  [
+                              "理解 ROI / 投产比的基本口径。",
+                              "学习时要把术语、ERP 字段、运营动作和指标放在同一条业务链路里理解。"
+                          ],
+        "related_terms":  [
+                              "SKU",
+                              "订单",
+                              "库存",
+                              "销售额"
+                          ],
+        "related_metrics":  [
+                                "销售额",
+                                "订单数",
+                                "毛利率",
+                                "退款率",
+                                "ROI"
+                            ],
+        "mini_quiz_ids":  [
+
+                          ]
+    },
+    {
+        "id":  "lesson-014",
+        "stage_id":  "stage-7",
+        "title":  "为什么销售额高不代表赚钱",
+        "difficulty":  "入门",
+        "estimated_minutes":  10,
+        "learning_goal":  "理解销售额和利润不是一回事。",
+        "core_explanation":  "销售额只表示卖了多少钱，不代表扣除成本、优惠、平台费、广告费和退款后还剩多少。",
+        "business_example":  "清仓活动销售额高，但折扣大、成本高，利润可能很低。",
+        "erp_connection":  "ERP 中成本、优惠、退款和费用字段影响利润判断。",
+        "operation_connection":  "运营追销售也要关注盈利能力。",
+        "data_analysis_connection":  "分析经营结果要看毛利和净利润相关口径。",
+        "common_misunderstandings":  [
+                                         "只看单个数字，不看它所在的业务环节。",
+                                         "没有先确认数据口径，就直接下结论。"
+                                     ],
+        "key_takeaways":  [
+                              "理解销售额和利润不是一回事。",
+                              "学习时要把术语、ERP 字段、运营动作和指标放在同一条业务链路里理解。"
+                          ],
+        "related_terms":  [
+                              "SKU",
+                              "订单",
+                              "库存",
+                              "销售额"
+                          ],
+        "related_metrics":  [
+                                "销售额",
+                                "订单数",
+                                "毛利率",
+                                "退款率",
+                                "ROI"
+                            ],
+        "mini_quiz_ids":  [
+
+                          ]
+    },
+    {
+        "id":  "lesson-015",
+        "stage_id":  "stage-7",
+        "title":  "毛利率为什么会下降",
+        "difficulty":  "中等",
+        "estimated_minutes":  12,
+        "learning_goal":  "理解毛利率下降的常见原因。",
+        "core_explanation":  "毛利率下降可能来自降价、优惠增加、低毛利商品占比上升、成本上涨或退款增加。",
+        "business_example":  "活动后销售上涨，但低价商品占比提高，整体毛利率下降。",
+        "erp_connection":  "ERP 需要成本、成交价、优惠和退款字段。",
+        "operation_connection":  "运营需要判断是主动让利还是结构问题。",
+        "data_analysis_connection":  "毛利率要拆商品结构和价格变化。",
+        "common_misunderstandings":  [
+                                         "只看单个数字，不看它所在的业务环节。",
+                                         "没有先确认数据口径，就直接下结论。"
+                                     ],
+        "key_takeaways":  [
+                              "理解毛利率下降的常见原因。",
+                              "学习时要把术语、ERP 字段、运营动作和指标放在同一条业务链路里理解。"
+                          ],
+        "related_terms":  [
+                              "SKU",
+                              "订单",
+                              "库存",
+                              "销售额"
+                          ],
+        "related_metrics":  [
+                                "销售额",
+                                "订单数",
+                                "毛利率",
+                                "退款率",
+                                "ROI"
+                            ],
+        "mini_quiz_ids":  [
+
+                          ]
+    },
+    {
+        "id":  "lesson-016",
+        "stage_id":  "stage-6",
+        "title":  "客单价下降说明什么",
+        "difficulty":  "中等",
+        "estimated_minutes":  10,
+        "learning_goal":  "理解客单价变化背后的业务可能。",
+        "core_explanation":  "客单价下降可能说明低价商品卖得多、搭配销售变少、优惠力度变大或用户购买件数减少。",
+        "business_example":  "活动吸引了大量低价订单，订单数上涨但客单价下降。",
+        "erp_connection":  "ERP 订单金额、件数、优惠和商品结构会反映原因。",
+        "operation_connection":  "运营要判断是拉新策略还是利润风险。",
+        "data_analysis_connection":  "客单价要结合订单数和毛利看。",
+        "common_misunderstandings":  [
+                                         "只看单个数字，不看它所在的业务环节。",
+                                         "没有先确认数据口径，就直接下结论。"
+                                     ],
+        "key_takeaways":  [
+                              "理解客单价变化背后的业务可能。",
+                              "学习时要把术语、ERP 字段、运营动作和指标放在同一条业务链路里理解。"
+                          ],
+        "related_terms":  [
+                              "SKU",
+                              "订单",
+                              "库存",
+                              "销售额"
+                          ],
+        "related_metrics":  [
+                                "销售额",
+                                "订单数",
+                                "毛利率",
+                                "退款率",
+                                "ROI"
+                            ],
+        "mini_quiz_ids":  [
+
+                          ]
+    },
+    {
+        "id":  "lesson-017",
+        "stage_id":  "stage-5",
+        "title":  "活动为什么会带来售后增加",
+        "difficulty":  "中等",
+        "estimated_minutes":  10,
+        "learning_goal":  "理解活动和售后压力的关系。",
+        "core_explanation":  "活动会带来更多订单，也可能带来冲动消费、发货压力和服务压力，从而增加售后。",
+        "business_example":  "大促后退款率升高，可能和发货慢、尺码不合适或质量反馈有关。",
+        "erp_connection":  "ERP 售后原因、订单来源和活动标记可以帮助分析。",
+        "operation_connection":  "运营复盘活动要看售后和退款。",
+        "data_analysis_connection":  "活动效果不能只看成交峰值。",
+        "common_misunderstandings":  [
+                                         "只看单个数字，不看它所在的业务环节。",
+                                         "没有先确认数据口径，就直接下结论。"
+                                     ],
+        "key_takeaways":  [
+                              "理解活动和售后压力的关系。",
+                              "学习时要把术语、ERP 字段、运营动作和指标放在同一条业务链路里理解。"
+                          ],
+        "related_terms":  [
+                              "SKU",
+                              "订单",
+                              "库存",
+                              "销售额"
+                          ],
+        "related_metrics":  [
+                                "销售额",
+                                "订单数",
+                                "毛利率",
+                                "退款率",
+                                "ROI"
+                            ],
+        "mini_quiz_ids":  [
+
+                          ]
+    },
+    {
+        "id":  "lesson-018",
+        "stage_id":  "stage-2",
+        "title":  "新品为什么没有销量",
+        "difficulty":  "中等",
+        "estimated_minutes":  12,
+        "learning_goal":  "理解新品冷启动问题。",
+        "core_explanation":  "新品没销量可能因为曝光不足、主图标题弱、价格不合适、评价少、库存不合理或流量不精准。",
+        "business_example":  "新品上架后浏览少，说明先要看曝光和点击。",
+        "erp_connection":  "ERP 能提供商品状态、库存和订单结果，但流量数据可能来自平台后台。",
+        "operation_connection":  "运营要先判断问题在曝光、点击还是转化。",
+        "data_analysis_connection":  "新品分析要按漏斗拆解。",
+        "common_misunderstandings":  [
+                                         "只看单个数字，不看它所在的业务环节。",
+                                         "没有先确认数据口径，就直接下结论。"
+                                     ],
+        "key_takeaways":  [
+                              "理解新品冷启动问题。",
+                              "学习时要把术语、ERP 字段、运营动作和指标放在同一条业务链路里理解。"
+                          ],
+        "related_terms":  [
+                              "SKU",
+                              "订单",
+                              "库存",
+                              "销售额"
+                          ],
+        "related_metrics":  [
+                                "销售额",
+                                "订单数",
+                                "毛利率",
+                                "退款率",
+                                "ROI"
+                            ],
+        "mini_quiz_ids":  [
+
+                          ]
+    },
+    {
+        "id":  "lesson-019",
+        "stage_id":  "stage-6",
+        "title":  "清仓为什么销售高但利润低",
+        "difficulty":  "入门",
+        "estimated_minutes":  10,
+        "learning_goal":  "理解清仓的目标是释放库存而不一定追求高利润。",
+        "core_explanation":  "清仓通常通过低价快速卖出积压库存，销售额可能提高，但毛利率会下降。",
+        "business_example":  "老款库存积压，降价后卖得快，但利润低。",
+        "erp_connection":  "ERP 中库存年龄、成交价、成本和毛利字段很重要。",
+        "operation_connection":  "运营清仓要控制亏损和库存回收。",
+        "data_analysis_connection":  "清仓复盘重点看库存减少和损失是否可接受。",
+        "common_misunderstandings":  [
+                                         "只看单个数字，不看它所在的业务环节。",
+                                         "没有先确认数据口径，就直接下结论。"
+                                     ],
+        "key_takeaways":  [
+                              "理解清仓的目标是释放库存而不一定追求高利润。",
+                              "学习时要把术语、ERP 字段、运营动作和指标放在同一条业务链路里理解。"
+                          ],
+        "related_terms":  [
+                              "SKU",
+                              "订单",
+                              "库存",
+                              "销售额"
+                          ],
+        "related_metrics":  [
+                                "销售额",
+                                "订单数",
+                                "毛利率",
+                                "退款率",
+                                "ROI"
+                            ],
+        "mini_quiz_ids":  [
+
+                          ]
+    },
+    {
+        "id":  "lesson-020",
+        "stage_id":  "stage-6",
+        "title":  "店铺自营和投流占比怎么看",
+        "difficulty":  "进阶",
+        "estimated_minutes":  12,
+        "learning_goal":  "理解自然销售和投流销售结构。",
+        "core_explanation":  "自营或自然流量占比高，说明店铺自身承接能力较好；投流占比高，说明销售更依赖广告。",
+        "business_example":  "销售额上涨但投流占比也上涨，利润未必变好。",
+        "erp_connection":  "ERP 销售数据要结合渠道或广告数据分析。",
+        "operation_connection":  "运营要平衡免费流量、付费流量和利润。",
+        "data_analysis_connection":  "看占比是为了判断增长质量。",
+        "common_misunderstandings":  [
+                                         "只看单个数字，不看它所在的业务环节。",
+                                         "没有先确认数据口径，就直接下结论。"
+                                     ],
+        "key_takeaways":  [
+                              "理解自然销售和投流销售结构。",
+                              "学习时要把术语、ERP 字段、运营动作和指标放在同一条业务链路里理解。"
+                          ],
+        "related_terms":  [
+                              "SKU",
+                              "订单",
+                              "库存",
+                              "销售额"
+                          ],
+        "related_metrics":  [
+                                "销售额",
+                                "订单数",
+                                "毛利率",
+                                "退款率",
+                                "ROI"
+                            ],
+        "mini_quiz_ids":  [
+
+                          ]
+    },
+    {
+        "id":  "lesson-021",
+        "stage_id":  "stage-8",
+        "title":  "商品结构对销售有什么影响",
+        "difficulty":  "中等",
+        "estimated_minutes":  12,
+        "learning_goal":  "理解商品结构决定销售质量。",
+        "core_explanation":  "不同商品的价格、毛利、库存、退货率不同，销售结构变化会影响整体指标。",
+        "business_example":  "低价引流款卖多了，销售额涨但客单价和毛利率下降。",
+        "erp_connection":  "ERP 商品分类、SKU、成本和订单明细支持结构分析。",
+        "operation_connection":  "运营要决定主推款、利润款和清仓款。",
+        "data_analysis_connection":  "结构变化常常比单个指标更重要。",
+        "common_misunderstandings":  [
+                                         "只看单个数字，不看它所在的业务环节。",
+                                         "没有先确认数据口径，就直接下结论。"
+                                     ],
+        "key_takeaways":  [
+                              "理解商品结构决定销售质量。",
+                              "学习时要把术语、ERP 字段、运营动作和指标放在同一条业务链路里理解。"
+                          ],
+        "related_terms":  [
+                              "SKU",
+                              "订单",
+                              "库存",
+                              "销售额"
+                          ],
+        "related_metrics":  [
+                                "销售额",
+                                "订单数",
+                                "毛利率",
+                                "退款率",
+                                "ROI"
+                            ],
+        "mini_quiz_ids":  [
+
+                          ]
+    },
+    {
+        "id":  "lesson-022",
+        "stage_id":  "stage-4",
+        "title":  "库存结构对运营有什么影响",
+        "difficulty":  "中等",
+        "estimated_minutes":  12,
+        "learning_goal":  "理解库存结构对补货、活动和投流的影响。",
+        "core_explanation":  "库存集中在不好卖的规格上，会限制运营动作；爆款缺货会让流量浪费。",
+        "business_example":  "总库存很多，但热卖尺码少，投流后仍然缺货。",
+        "erp_connection":  "ERP 库存需要按仓库、SKU、颜色、尺码分析。",
+        "operation_connection":  "运营必须根据库存结构安排活动和投放。",
+        "data_analysis_connection":  "库存结构决定能不能承接销售。",
+        "common_misunderstandings":  [
+                                         "只看单个数字，不看它所在的业务环节。",
+                                         "没有先确认数据口径，就直接下结论。"
+                                     ],
+        "key_takeaways":  [
+                              "理解库存结构对补货、活动和投流的影响。",
+                              "学习时要把术语、ERP 字段、运营动作和指标放在同一条业务链路里理解。"
+                          ],
+        "related_terms":  [
+                              "SKU",
+                              "订单",
+                              "库存",
+                              "销售额"
+                          ],
+        "related_metrics":  [
+                                "销售额",
+                                "订单数",
+                                "毛利率",
+                                "退款率",
+                                "ROI"
+                            ],
+        "mini_quiz_ids":  [
+
+                          ]
+    },
+    {
+        "id":  "lesson-023",
+        "stage_id":  "stage-5",
+        "title":  "售后原因怎么分析",
+        "difficulty":  "中等",
+        "estimated_minutes":  12,
+        "learning_goal":  "学习从售后原因反推商品、物流和服务问题。",
+        "core_explanation":  "售后原因可以分为质量、尺码、物流、描述不符、买家原因等。",
+        "business_example":  "退款率升高时，要看原因是否集中在某个商品或某类问题。",
+        "erp_connection":  "ERP 记录售后原因、商品、订单、退款和退货入库。",
+        "operation_connection":  "运营和商品团队会根据售后原因优化页面、商品和服务。",
+        "data_analysis_connection":  "售后分析要看原因分布和集中度。",
+        "common_misunderstandings":  [
+                                         "只看单个数字，不看它所在的业务环节。",
+                                         "没有先确认数据口径，就直接下结论。"
+                                     ],
+        "key_takeaways":  [
+                              "学习从售后原因反推商品、物流和服务问题。",
+                              "学习时要把术语、ERP 字段、运营动作和指标放在同一条业务链路里理解。"
+                          ],
+        "related_terms":  [
+                              "SKU",
+                              "订单",
+                              "库存",
+                              "销售额"
+                          ],
+        "related_metrics":  [
+                                "销售额",
+                                "订单数",
+                                "毛利率",
+                                "退款率",
+                                "ROI"
+                            ],
+        "mini_quiz_ids":  [
+
+                          ]
+    },
+    {
+        "id":  "lesson-024",
+        "stage_id":  "stage-3",
+        "title":  "发货时效为什么重要",
+        "difficulty":  "入门",
+        "estimated_minutes":  10,
+        "learning_goal":  "理解发货速度对体验、退款和平台规则的影响。",
+        "core_explanation":  "发货慢会影响用户体验，也可能增加退款和投诉。",
+        "business_example":  "活动后订单暴增，仓库发不出来，售后随之增加。",
+        "erp_connection":  "ERP 记录付款时间、出库时间、发货时间和物流揽收时间。",
+        "operation_connection":  "运营做活动前要确认仓库承接能力。",
+        "data_analysis_connection":  "发货时效是订单流程的重要健康指标。",
+        "common_misunderstandings":  [
+                                         "只看单个数字，不看它所在的业务环节。",
+                                         "没有先确认数据口径，就直接下结论。"
+                                     ],
+        "key_takeaways":  [
+                              "理解发货速度对体验、退款和平台规则的影响。",
+                              "学习时要把术语、ERP 字段、运营动作和指标放在同一条业务链路里理解。"
+                          ],
+        "related_terms":  [
+                              "SKU",
+                              "订单",
+                              "库存",
+                              "销售额"
+                          ],
+        "related_metrics":  [
+                                "销售额",
+                                "订单数",
+                                "毛利率",
+                                "退款率",
+                                "ROI"
+                            ],
+        "mini_quiz_ids":  [
+
+                          ]
+    },
+    {
+        "id":  "lesson-025",
+        "stage_id":  "stage-7",
+        "title":  "电商日报应该怎么看",
+        "difficulty":  "中等",
+        "estimated_minutes":  12,
+        "learning_goal":  "学习用业务链路阅读日报。",
+        "core_explanation":  "日报不能只看一个数字，要看销售、订单、退款、毛利、库存、投流和售后之间的关系。",
+        "business_example":  "销售上涨时，要继续看毛利率、退款率和库存是否异常。",
+        "erp_connection":  "ERP 提供订单、库存、售后和财务基础数据。",
+        "operation_connection":  "运营日报用于发现变化并安排动作。",
+        "data_analysis_connection":  "看日报要先看变化，再找原因。",
+        "common_misunderstandings":  [
+                                         "只看单个数字，不看它所在的业务环节。",
+                                         "没有先确认数据口径，就直接下结论。"
+                                     ],
+        "key_takeaways":  [
+                              "学习用业务链路阅读日报。",
+                              "学习时要把术语、ERP 字段、运营动作和指标放在同一条业务链路里理解。"
+                          ],
+        "related_terms":  [
+                              "SKU",
+                              "订单",
+                              "库存",
+                              "销售额"
+                          ],
+        "related_metrics":  [
+                                "销售额",
+                                "订单数",
+                                "毛利率",
+                                "退款率",
+                                "ROI"
+                            ],
+        "mini_quiz_ids":  [
+
+                          ]
+    },
+    {
+        "id":  "lesson-026",
+        "stage_id":  "stage-7",
+        "title":  "数据口径为什么重要",
+        "difficulty":  "中等",
+        "estimated_minutes":  12,
+        "learning_goal":  "理解同一个指标可能因为口径不同产生差异。",
+        "core_explanation":  "口径决定数据包含什么、不包含什么、按什么时间统计。",
+        "business_example":  "销售额按付款时间和按发货时间统计，结果可能不同。",
+        "erp_connection":  "ERP 字段和时间节点决定指标口径。",
+        "operation_connection":  "运营和分析必须先对齐口径再讨论结论。",
+        "data_analysis_connection":  "口径不清会导致错误判断。",
+        "common_misunderstandings":  [
+                                         "只看单个数字，不看它所在的业务环节。",
+                                         "没有先确认数据口径，就直接下结论。"
+                                     ],
+        "key_takeaways":  [
+                              "理解同一个指标可能因为口径不同产生差异。",
+                              "学习时要把术语、ERP 字段、运营动作和指标放在同一条业务链路里理解。"
+                          ],
+        "related_terms":  [
+                              "SKU",
+                              "订单",
+                              "库存",
+                              "销售额"
+                          ],
+        "related_metrics":  [
+                                "销售额",
+                                "订单数",
+                                "毛利率",
+                                "退款率",
+                                "ROI"
+                            ],
+        "mini_quiz_ids":  [
+
+                          ]
+    },
+    {
+        "id":  "lesson-027",
+        "stage_id":  "stage-7",
+        "title":  "GMV 和实际收入为什么不同",
+        "difficulty":  "入门",
+        "estimated_minutes":  10,
+        "learning_goal":  "理解 GMV 和实际收入的差别。",
+        "core_explanation":  "GMV 通常表示成交规模，但实际收入还要扣除退款、优惠、平台费用等。",
+        "business_example":  "大促 GMV 很高，但退款和优惠也高，实际收入低于预期。",
+        "erp_connection":  "ERP 的订单金额、退款金额、优惠金额和结算字段都相关。",
+        "operation_connection":  "运营看增长时要区分规模和收入质量。",
+        "data_analysis_connection":  "GMV 是规模指标，不等于最终赚到的钱。",
+        "common_misunderstandings":  [
+                                         "只看单个数字，不看它所在的业务环节。",
+                                         "没有先确认数据口径，就直接下结论。"
+                                     ],
+        "key_takeaways":  [
+                              "理解 GMV 和实际收入的差别。",
+                              "学习时要把术语、ERP 字段、运营动作和指标放在同一条业务链路里理解。"
+                          ],
+        "related_terms":  [
+                              "SKU",
+                              "订单",
+                              "库存",
+                              "销售额"
+                          ],
+        "related_metrics":  [
+                                "销售额",
+                                "订单数",
+                                "毛利率",
+                                "退款率",
+                                "ROI"
+                            ],
+        "mini_quiz_ids":  [
+
+                          ]
+    },
+    {
+        "id":  "lesson-028",
+        "stage_id":  "stage-8",
+        "title":  "运营动作和数据指标怎么关联",
+        "difficulty":  "中等",
+        "estimated_minutes":  12,
+        "learning_goal":  "学习把运营动作和指标变化连起来。",
+        "core_explanation":  "每个运营动作都会影响一组指标，而不是只影响一个数字。",
+        "business_example":  "降价可能提升转化率和订单数，但降低毛利率。",
+        "erp_connection":  "ERP 数据能看到订单、优惠、库存和售后结果。",
+        "operation_connection":  "运营复盘要写清动作、指标变化和业务原因。",
+        "data_analysis_connection":  "分析动作效果要看连锁反应。",
+        "common_misunderstandings":  [
+                                         "只看单个数字，不看它所在的业务环节。",
+                                         "没有先确认数据口径，就直接下结论。"
+                                     ],
+        "key_takeaways":  [
+                              "学习把运营动作和指标变化连起来。",
+                              "学习时要把术语、ERP 字段、运营动作和指标放在同一条业务链路里理解。"
+                          ],
+        "related_terms":  [
+                              "SKU",
+                              "订单",
+                              "库存",
+                              "销售额"
+                          ],
+        "related_metrics":  [
+                                "销售额",
+                                "订单数",
+                                "毛利率",
+                                "退款率",
+                                "ROI"
+                            ],
+        "mini_quiz_ids":  [
+
+                          ]
+    },
+    {
+        "id":  "lesson-029",
+        "stage_id":  "stage-8",
+        "title":  "数据分析师如何理解 ERP 字段",
+        "difficulty":  "进阶",
+        "estimated_minutes":  12,
+        "learning_goal":  "学习从字段看业务动作。",
+        "core_explanation":  "字段不是孤立名称，它背后通常对应一个业务节点、角色和系统动作。",
+        "business_example":  "发货时间字段背后是仓库完成发货动作。",
+        "erp_connection":  "ERP 字段连接商品、订单、库存、售后和财务流程。",
+        "operation_connection":  "运营和分析师需要用字段还原业务过程。",
+        "data_analysis_connection":  "理解字段是理解业务数据的基础。",
+        "common_misunderstandings":  [
+                                         "只看单个数字，不看它所在的业务环节。",
+                                         "没有先确认数据口径，就直接下结论。"
+                                     ],
+        "key_takeaways":  [
+                              "学习从字段看业务动作。",
+                              "学习时要把术语、ERP 字段、运营动作和指标放在同一条业务链路里理解。"
+                          ],
+        "related_terms":  [
+                              "SKU",
+                              "订单",
+                              "库存",
+                              "销售额"
+                          ],
+        "related_metrics":  [
+                                "销售额",
+                                "订单数",
+                                "毛利率",
+                                "退款率",
+                                "ROI"
+                            ],
+        "mini_quiz_ids":  [
+
+                          ]
+    },
+    {
+        "id":  "lesson-030",
+        "stage_id":  "stage-8",
+        "title":  "如何从一个异常数据开始分析业务",
+        "difficulty":  "进阶",
+        "estimated_minutes":  15,
+        "learning_goal":  "学习从异常指标提出业务假设。",
+        "core_explanation":  "看到异常后不要马上下结论，要先确认口径，再拆维度、找关联指标、提出假设并验证。",
+        "business_example":  "毛利率下降，可以拆商品结构、优惠、成本、退款和投流变化。",
+        "erp_connection":  "ERP 提供维度和明细，帮助定位异常来自哪个环节。",
+        "operation_connection":  "运营根据分析结果决定调价、补货、优化页面或调整投流。",
+        "data_analysis_connection":  "分析的关键是从现象到假设再到验证。",
+        "common_misunderstandings":  [
+                                         "只看单个数字，不看它所在的业务环节。",
+                                         "没有先确认数据口径，就直接下结论。"
+                                     ],
+        "key_takeaways":  [
+                              "学习从异常指标提出业务假设。",
+                              "学习时要把术语、ERP 字段、运营动作和指标放在同一条业务链路里理解。"
+                          ],
+        "related_terms":  [
+                              "SKU",
+                              "订单",
+                              "库存",
+                              "销售额"
+                          ],
+        "related_metrics":  [
+                                "销售额",
+                                "订单数",
+                                "毛利率",
+                                "退款率",
+                                "ROI"
+                            ],
+        "mini_quiz_ids":  [
+
+                          ]
+    }
+]

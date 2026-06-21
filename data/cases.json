@@ -1,0 +1,572 @@
+[
+    {
+        "id":  "case-001",
+        "case_type":  "利润分析",
+        "case_title":  "为什么销售额上涨但毛利率下降",
+        "background":  "某店铺活动期间销售额明显提升。",
+        "data_observation":  "销售额上涨 30%，但毛利率从 42% 降到 31%。",
+        "business_question":  "为什么卖得更多但利润空间变小？",
+        "analysis_steps":  [
+                               "确认指标口径和时间范围",
+                               "按商品、SKU、渠道或仓库拆分数据",
+                               "查看相关 ERP 字段和运营动作",
+                               "形成可能原因并列出下一步验证"
+                           ],
+        "involved_terms":  [
+                               "销售额",
+                               "库存",
+                               "订单",
+                               "售后"
+                           ],
+        "involved_fields":  [
+                                "商品编码",
+                                "SKU 编码",
+                                "订单状态",
+                                "库存数量",
+                                "退款金额"
+                            ],
+        "involved_metrics":  [
+                                 "销售额",
+                                 "订单数",
+                                 "毛利率",
+                                 "退款率",
+                                 "ROI",
+                                 "库存周转率"
+                             ],
+        "operation_context":  "活动可能拉高销量，同时压低售价并改变商品结构。",
+        "conclusion":  "销售上涨可能由低毛利商品和大额优惠推动，因此毛利率下降。",
+        "what_i_should_learn":  "不能只看销售额，要同时看成本、优惠、退款和商品结构。"
+    },
+    {
+        "id":  "case-002",
+        "case_type":  "投流分析",
+        "case_title":  "为什么投流增加但 ROI 下降",
+        "background":  "店铺加大广告投放，希望扩大销量。",
+        "data_observation":  "广告花费上涨 60%，销售额只上涨 20%，ROI 下降。",
+        "business_question":  "为什么花更多广告费后投产变差？",
+        "analysis_steps":  [
+                               "确认指标口径和时间范围",
+                               "按商品、SKU、渠道或仓库拆分数据",
+                               "查看相关 ERP 字段和运营动作",
+                               "形成可能原因并列出下一步验证"
+                           ],
+        "involved_terms":  [
+                               "销售额",
+                               "库存",
+                               "订单",
+                               "售后"
+                           ],
+        "involved_fields":  [
+                                "商品编码",
+                                "SKU 编码",
+                                "订单状态",
+                                "库存数量",
+                                "退款金额"
+                            ],
+        "involved_metrics":  [
+                                 "销售额",
+                                 "订单数",
+                                 "毛利率",
+                                 "退款率",
+                                 "ROI",
+                                 "库存周转率"
+                             ],
+        "operation_context":  "流量可能不精准，或落地商品转化和毛利不足。",
+        "conclusion":  "投流增加不一定带来等比例成交，需要检查点击率、转化率和客单价。",
+        "what_i_should_learn":  "投流复盘要看花费、销售额、毛利和退款。"
+    },
+    {
+        "id":  "case-003",
+        "case_type":  "库存分析",
+        "case_title":  "为什么库存很多但还是缺货",
+        "background":  "运营看到总库存充足，但客服反馈多个订单无法发货。",
+        "data_observation":  "总库存 500 件，可用库存只有 40 件，热卖尺码只剩 3 件。",
+        "business_question":  "为什么库存很多还会缺货？",
+        "analysis_steps":  [
+                               "确认指标口径和时间范围",
+                               "按商品、SKU、渠道或仓库拆分数据",
+                               "查看相关 ERP 字段和运营动作",
+                               "形成可能原因并列出下一步验证"
+                           ],
+        "involved_terms":  [
+                               "销售额",
+                               "库存",
+                               "订单",
+                               "售后"
+                           ],
+        "involved_fields":  [
+                                "商品编码",
+                                "SKU 编码",
+                                "订单状态",
+                                "库存数量",
+                                "退款金额"
+                            ],
+        "involved_metrics":  [
+                                 "销售额",
+                                 "订单数",
+                                 "毛利率",
+                                 "退款率",
+                                 "ROI",
+                                 "库存周转率"
+                             ],
+        "operation_context":  "总库存被冷门规格占用，热卖 SKU 可用库存不足。",
+        "conclusion":  "库存很多不等于可售库存充足。",
+        "what_i_should_learn":  "库存分析要拆 SKU、仓库和可用库存。"
+    },
+    {
+        "id":  "case-004",
+        "case_type":  "新品分析",
+        "case_title":  "为什么新品上架后没有销量",
+        "background":  "新品已经上架 7 天，但销量很低。",
+        "data_observation":  "曝光少、点击少，库存正常，价格高于同类商品。",
+        "business_question":  "新品没销量应该先看什么？",
+        "analysis_steps":  [
+                               "确认指标口径和时间范围",
+                               "按商品、SKU、渠道或仓库拆分数据",
+                               "查看相关 ERP 字段和运营动作",
+                               "形成可能原因并列出下一步验证"
+                           ],
+        "involved_terms":  [
+                               "销售额",
+                               "库存",
+                               "订单",
+                               "售后"
+                           ],
+        "involved_fields":  [
+                                "商品编码",
+                                "SKU 编码",
+                                "订单状态",
+                                "库存数量",
+                                "退款金额"
+                            ],
+        "involved_metrics":  [
+                                 "销售额",
+                                 "订单数",
+                                 "毛利率",
+                                 "退款率",
+                                 "ROI",
+                                 "库存周转率"
+                             ],
+        "operation_context":  "问题可能在曝光、主图标题、价格或评价基础。",
+        "conclusion":  "先看流量漏斗，再看价格和页面承接。",
+        "what_i_should_learn":  "新品分析不要直接归因到商品不好。"
+    },
+    {
+        "id":  "case-005",
+        "case_type":  "售后分析",
+        "case_title":  "为什么活动后售后增加",
+        "background":  "大促活动后订单暴增。",
+        "data_observation":  "订单数上涨 80%，售后单上涨 140%，主要原因是尺码不合适和发货慢。",
+        "business_question":  "活动为什么带来更多售后？",
+        "analysis_steps":  [
+                               "确认指标口径和时间范围",
+                               "按商品、SKU、渠道或仓库拆分数据",
+                               "查看相关 ERP 字段和运营动作",
+                               "形成可能原因并列出下一步验证"
+                           ],
+        "involved_terms":  [
+                               "销售额",
+                               "库存",
+                               "订单",
+                               "售后"
+                           ],
+        "involved_fields":  [
+                                "商品编码",
+                                "SKU 编码",
+                                "订单状态",
+                                "库存数量",
+                                "退款金额"
+                            ],
+        "involved_metrics":  [
+                                 "销售额",
+                                 "订单数",
+                                 "毛利率",
+                                 "退款率",
+                                 "ROI",
+                                 "库存周转率"
+                             ],
+        "operation_context":  "活动放大了尺码选择、发货承接和客服响应问题。",
+        "conclusion":  "活动复盘必须看售后原因和履约能力。",
+        "what_i_should_learn":  "成交高峰之后要继续看退款和售后。"
+    },
+    {
+        "id":  "case-006",
+        "case_type":  "尺码库存",
+        "case_title":  "为什么某尺码经常断货",
+        "background":  "某服饰商品整体销量稳定，但客服频繁反馈 M 码缺货。",
+        "data_observation":  "M 码销量占比 45%，库存占比只有 15%。",
+        "business_question":  "为什么某个尺码经常断货？",
+        "analysis_steps":  [
+                               "确认指标口径和时间范围",
+                               "按商品、SKU、渠道或仓库拆分数据",
+                               "查看相关 ERP 字段和运营动作",
+                               "形成可能原因并列出下一步验证"
+                           ],
+        "involved_terms":  [
+                               "销售额",
+                               "库存",
+                               "订单",
+                               "售后"
+                           ],
+        "involved_fields":  [
+                                "商品编码",
+                                "SKU 编码",
+                                "订单状态",
+                                "库存数量",
+                                "退款金额"
+                            ],
+        "involved_metrics":  [
+                                 "销售额",
+                                 "订单数",
+                                 "毛利率",
+                                 "退款率",
+                                 "ROI",
+                                 "库存周转率"
+                             ],
+        "operation_context":  "尺码备货结构和真实需求不匹配。",
+        "conclusion":  "补货要按 SKU 需求结构，而不是按总销量。",
+        "what_i_should_learn":  "尺码分析是 SKU 级库存分析。"
+    },
+    {
+        "id":  "case-007",
+        "case_type":  "颜色库存",
+        "case_title":  "为什么某颜色库存积压",
+        "background":  "同款商品不同颜色销量差异很大。",
+        "data_observation":  "黑色售罄率 85%，绿色售罄率 18%，绿色库存长期占用仓位。",
+        "business_question":  "为什么某颜色库存积压？",
+        "analysis_steps":  [
+                               "确认指标口径和时间范围",
+                               "按商品、SKU、渠道或仓库拆分数据",
+                               "查看相关 ERP 字段和运营动作",
+                               "形成可能原因并列出下一步验证"
+                           ],
+        "involved_terms":  [
+                               "销售额",
+                               "库存",
+                               "订单",
+                               "售后"
+                           ],
+        "involved_fields":  [
+                                "商品编码",
+                                "SKU 编码",
+                                "订单状态",
+                                "库存数量",
+                                "退款金额"
+                            ],
+        "involved_metrics":  [
+                                 "销售额",
+                                 "订单数",
+                                 "毛利率",
+                                 "退款率",
+                                 "ROI",
+                                 "库存周转率"
+                             ],
+        "operation_context":  "颜色偏好和主推策略不匹配，可能也和图片展示有关。",
+        "conclusion":  "积压颜色需要清仓、换图或减少补货。",
+        "what_i_should_learn":  "商品结构会影响库存健康。"
+    },
+    {
+        "id":  "case-008",
+        "case_type":  "预售履约",
+        "case_title":  "为什么预售订单多但发货慢",
+        "background":  "预售商品在直播后订单很多。",
+        "data_observation":  "预售订单 1200 单，按时发货率只有 62%。",
+        "business_question":  "为什么订单多但发货慢？",
+        "analysis_steps":  [
+                               "确认指标口径和时间范围",
+                               "按商品、SKU、渠道或仓库拆分数据",
+                               "查看相关 ERP 字段和运营动作",
+                               "形成可能原因并列出下一步验证"
+                           ],
+        "involved_terms":  [
+                               "销售额",
+                               "库存",
+                               "订单",
+                               "售后"
+                           ],
+        "involved_fields":  [
+                                "商品编码",
+                                "SKU 编码",
+                                "订单状态",
+                                "库存数量",
+                                "退款金额"
+                            ],
+        "involved_metrics":  [
+                                 "销售额",
+                                 "订单数",
+                                 "毛利率",
+                                 "退款率",
+                                 "ROI",
+                                 "库存周转率"
+                             ],
+        "operation_context":  "预售供应计划、到货时间和仓库处理能力可能不足。",
+        "conclusion":  "预售要管理预计发货时间和用户预期。",
+        "what_i_should_learn":  "预售数据要同时看订单、到货和发货。"
+    },
+    {
+        "id":  "case-009",
+        "case_type":  "退款分析",
+        "case_title":  "为什么退款率突然升高",
+        "background":  "某商品近 3 天退款率明显上升。",
+        "data_observation":  "退款率从 8% 升至 18%，原因集中在描述不符和质量问题。",
+        "business_question":  "退款率突然升高应该怎么查？",
+        "analysis_steps":  [
+                               "确认指标口径和时间范围",
+                               "按商品、SKU、渠道或仓库拆分数据",
+                               "查看相关 ERP 字段和运营动作",
+                               "形成可能原因并列出下一步验证"
+                           ],
+        "involved_terms":  [
+                               "销售额",
+                               "库存",
+                               "订单",
+                               "售后"
+                           ],
+        "involved_fields":  [
+                                "商品编码",
+                                "SKU 编码",
+                                "订单状态",
+                                "库存数量",
+                                "退款金额"
+                            ],
+        "involved_metrics":  [
+                                 "销售额",
+                                 "订单数",
+                                 "毛利率",
+                                 "退款率",
+                                 "ROI",
+                                 "库存周转率"
+                             ],
+        "operation_context":  "可能是页面描述、批次质量或活动引入了不匹配人群。",
+        "conclusion":  "先按商品、批次、渠道和售后原因拆解。",
+        "what_i_should_learn":  "退款率是商品和履约质量信号。"
+    },
+    {
+        "id":  "case-010",
+        "case_type":  "客单价分析",
+        "case_title":  "为什么客单价下降",
+        "background":  "店铺订单数上涨，但整体收入增长有限。",
+        "data_observation":  "订单数上涨 35%，客单价下降 22%。",
+        "business_question":  "为什么买的人多了但每单金额变小？",
+        "analysis_steps":  [
+                               "确认指标口径和时间范围",
+                               "按商品、SKU、渠道或仓库拆分数据",
+                               "查看相关 ERP 字段和运营动作",
+                               "形成可能原因并列出下一步验证"
+                           ],
+        "involved_terms":  [
+                               "销售额",
+                               "库存",
+                               "订单",
+                               "售后"
+                           ],
+        "involved_fields":  [
+                                "商品编码",
+                                "SKU 编码",
+                                "订单状态",
+                                "库存数量",
+                                "退款金额"
+                            ],
+        "involved_metrics":  [
+                                 "销售额",
+                                 "订单数",
+                                 "毛利率",
+                                 "退款率",
+                                 "ROI",
+                                 "库存周转率"
+                             ],
+        "operation_context":  "低价商品占比上升、优惠加大或搭配购买减少。",
+        "conclusion":  "客单价下降要结合商品结构和优惠看。",
+        "what_i_should_learn":  "订单数和客单价要一起分析。"
+    },
+    {
+        "id":  "case-011",
+        "case_type":  "转化分析",
+        "case_title":  "为什么点击率高但转化率低",
+        "background":  "广告素材点击表现不错，但成交少。",
+        "data_observation":  "点击率从 3% 提升到 6%，转化率从 4% 降到 2%。",
+        "business_question":  "为什么用户点进来却不买？",
+        "analysis_steps":  [
+                               "确认指标口径和时间范围",
+                               "按商品、SKU、渠道或仓库拆分数据",
+                               "查看相关 ERP 字段和运营动作",
+                               "形成可能原因并列出下一步验证"
+                           ],
+        "involved_terms":  [
+                               "销售额",
+                               "库存",
+                               "订单",
+                               "售后"
+                           ],
+        "involved_fields":  [
+                                "商品编码",
+                                "SKU 编码",
+                                "订单状态",
+                                "库存数量",
+                                "退款金额"
+                            ],
+        "involved_metrics":  [
+                                 "销售额",
+                                 "订单数",
+                                 "毛利率",
+                                 "退款率",
+                                 "ROI",
+                                 "库存周转率"
+                             ],
+        "operation_context":  "流量兴趣和商品承接不匹配，或价格、评价、详情页不足。",
+        "conclusion":  "点击好只是第一步，还要看转化。",
+        "what_i_should_learn":  "漏斗分析要分曝光、点击、转化。"
+    },
+    {
+        "id":  "case-012",
+        "case_type":  "清仓分析",
+        "case_title":  "为什么清仓销售高但利润低",
+        "background":  "店铺对老款做清仓活动。",
+        "data_observation":  "销量上涨 90%，毛利率下降到 12%。",
+        "business_question":  "为什么清仓看起来卖得好但利润低？",
+        "analysis_steps":  [
+                               "确认指标口径和时间范围",
+                               "按商品、SKU、渠道或仓库拆分数据",
+                               "查看相关 ERP 字段和运营动作",
+                               "形成可能原因并列出下一步验证"
+                           ],
+        "involved_terms":  [
+                               "销售额",
+                               "库存",
+                               "订单",
+                               "售后"
+                           ],
+        "involved_fields":  [
+                                "商品编码",
+                                "SKU 编码",
+                                "订单状态",
+                                "库存数量",
+                                "退款金额"
+                            ],
+        "involved_metrics":  [
+                                 "销售额",
+                                 "订单数",
+                                 "毛利率",
+                                 "退款率",
+                                 "ROI",
+                                 "库存周转率"
+                             ],
+        "operation_context":  "清仓通过低价释放库存，利润空间被压缩。",
+        "conclusion":  "清仓目标是减少库存，不一定提高利润。",
+        "what_i_should_learn":  "清仓复盘要看库存减少和亏损是否可接受。"
+    },
+    {
+        "id":  "case-013",
+        "case_type":  "履约分析",
+        "case_title":  "为什么订单量上涨但发货量没上涨",
+        "background":  "活动后订单明显增加，但仓库发货没有同步增加。",
+        "data_observation":  "订单量上涨 50%，发货量只上涨 8%，待发货积压增加。",
+        "business_question":  "为什么订单涨了发货没涨？",
+        "analysis_steps":  [
+                               "确认指标口径和时间范围",
+                               "按商品、SKU、渠道或仓库拆分数据",
+                               "查看相关 ERP 字段和运营动作",
+                               "形成可能原因并列出下一步验证"
+                           ],
+        "involved_terms":  [
+                               "销售额",
+                               "库存",
+                               "订单",
+                               "售后"
+                           ],
+        "involved_fields":  [
+                                "商品编码",
+                                "SKU 编码",
+                                "订单状态",
+                                "库存数量",
+                                "退款金额"
+                            ],
+        "involved_metrics":  [
+                                 "销售额",
+                                 "订单数",
+                                 "毛利率",
+                                 "退款率",
+                                 "ROI",
+                                 "库存周转率"
+                             ],
+        "operation_context":  "仓库产能、库存可用性或审单规则可能成为瓶颈。",
+        "conclusion":  "要按审单、分仓、出库、揽收节点拆解。",
+        "what_i_should_learn":  "订单增长必须匹配履约能力。"
+    },
+    {
+        "id":  "case-014",
+        "case_type":  "渠道结构",
+        "case_title":  "为什么自营占比下降",
+        "background":  "店铺总销售额上涨，但自然销售占比下降。",
+        "data_observation":  "总销售上涨 20%，投流成交占比从 35% 升至 60%。",
+        "business_question":  "为什么自营占比会下降？",
+        "analysis_steps":  [
+                               "确认指标口径和时间范围",
+                               "按商品、SKU、渠道或仓库拆分数据",
+                               "查看相关 ERP 字段和运营动作",
+                               "形成可能原因并列出下一步验证"
+                           ],
+        "involved_terms":  [
+                               "销售额",
+                               "库存",
+                               "订单",
+                               "售后"
+                           ],
+        "involved_fields":  [
+                                "商品编码",
+                                "SKU 编码",
+                                "订单状态",
+                                "库存数量",
+                                "退款金额"
+                            ],
+        "involved_metrics":  [
+                                 "销售额",
+                                 "订单数",
+                                 "毛利率",
+                                 "退款率",
+                                 "ROI",
+                                 "库存周转率"
+                             ],
+        "operation_context":  "增长更多来自付费流量，自然承接能力没有同步提升。",
+        "conclusion":  "要看免费流量、付费流量、ROI 和毛利。",
+        "what_i_should_learn":  "增长质量要看渠道结构。"
+    },
+    {
+        "id":  "case-015",
+        "case_type":  "销售结构",
+        "case_title":  "为什么店铺销售结构发生变化",
+        "background":  "店铺近期销售额稳定，但商品贡献变化明显。",
+        "data_observation":  "低价引流款销售占比从 20% 升到 48%，利润款占比下降。",
+        "business_question":  "销售结构变化意味着什么？",
+        "analysis_steps":  [
+                               "确认指标口径和时间范围",
+                               "按商品、SKU、渠道或仓库拆分数据",
+                               "查看相关 ERP 字段和运营动作",
+                               "形成可能原因并列出下一步验证"
+                           ],
+        "involved_terms":  [
+                               "销售额",
+                               "库存",
+                               "订单",
+                               "售后"
+                           ],
+        "involved_fields":  [
+                                "商品编码",
+                                "SKU 编码",
+                                "订单状态",
+                                "库存数量",
+                                "退款金额"
+                            ],
+        "involved_metrics":  [
+                                 "销售额",
+                                 "订单数",
+                                 "毛利率",
+                                 "退款率",
+                                 "ROI",
+                                 "库存周转率"
+                             ],
+        "operation_context":  "店铺可能更依赖低价款，利润和品牌定位受到影响。",
+        "conclusion":  "要按商品层级看销售、毛利和库存。",
+        "what_i_should_learn":  "结构变化往往解释整体指标变化。"
+    }
+]

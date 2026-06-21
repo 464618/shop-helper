@@ -18,6 +18,8 @@
       </div>
       <nav class="nav-list">
         <button class="nav-button active" data-module="dashboard">首页</button>
+        <button class="nav-button" data-module="growthCenter">电商知识成长中心</button>
+        <button class="nav-button" data-module="onlineCenter">联网增强中心</button>
         <button class="nav-button" data-module="terms">电商术语库</button>
         <button class="nav-button" data-module="fields">ERP 字段解释器</button>
         <button class="nav-button" data-module="processes">业务流程地图</button>
@@ -38,6 +40,20 @@
       </header>
       <main>
         <section class="module-section active" id="dashboard"><div id="dashboardContent"></div></section>
+        <section class="module-section" id="growthCenter">
+          <div class="section-head">
+            <h2>电商知识成长中心</h2>
+            <p>按阶段、任务、课程、案例和复习记录系统增长电商知识。</p>
+          </div>
+          <div id="growthCenterContent"></div>
+        </section>
+        <section class="module-section" id="onlineCenter">
+          <div class="section-head">
+            <h2>联网增强中心</h2>
+            <p>使用 WiFi 或手机流量查看同步状态、检查版本、检查课程包和打开学习入口。</p>
+          </div>
+          <div id="onlineCenterContent"></div>
+        </section>
         <section class="module-section" id="terms"><div class="section-head"><h2>电商术语库</h2><p>沉淀每天遇到的电商术语，理解它们和 ERP 字段、指标之间的关系。</p></div><div class="toolbar"><input id="termsSearch" class="search-input" placeholder="搜索术语、解释、场景"><select id="termsFilter" class="select-input"></select><button id="termsReset" class="secondary-button">重置本地新增</button></div><div id="termsFormArea"></div><div id="termsList" class="card-grid"></div></section>
         <section class="module-section" id="fields"><div class="section-head"><h2>ERP 字段解释器</h2><p>把字段名翻译成业务含义，理解字段背后发生了什么。</p></div><div class="toolbar"><input id="fieldsSearch" class="search-input" placeholder="搜索字段、模块、含义"><select id="fieldsFilter" class="select-input"></select><button id="fieldsReset" class="secondary-button">重置本地新增</button></div><div id="fieldsFormArea"></div><div id="fieldsList" class="card-grid"></div></section>
         <section class="module-section" id="processes"><div class="section-head"><h2>业务流程地图</h2><p>用流程节点理解商品、订单、库存、售后、运营、财务和物流如何流转。</p></div><div class="toolbar"><input id="processesSearch" class="search-input" placeholder="搜索流程名称或节点"></div><div id="processesList" class="stack-list"></div></section>

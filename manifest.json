@@ -1,23 +1,23 @@
-{
-  "name": "电商 ERP 业务学习驾驶舱",
-  "short_name": "ERP学习",
-  "start_url": "./index.html",
-  "display": "standalone",
-  "theme_color": "#2563eb",
-  "background_color": "#f7f8fa",
-  "description": "用于学习电商业务、ERP 字段、运营动作和数据分析指标的本地优先 PWA 工具",
-  "icons": [
-    {
-      "src": "icons/icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any"
-    },
-    {
-      "src": "icons/icon-maskable.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "maskable"
-    }
-  ]
+﻿{
+    "name":  "电商知识成长系统",
+    "short_name":  "电商成长",
+    "start_url":  "./index.html",
+    "display":  "standalone",
+    "theme_color":  "#2563eb",
+    "background_color":  "#f7f8fa",
+    "description":  "本地优先的电商知识成长 PWA，支持阶段学习、课程、案例、复习、本地保存和 Gist 同步",
+    "icons":  [
+                  {
+                      "src":  "icons/icon.svg",
+                      "sizes":  "any",
+                      "type":  "image/svg+xml",
+                      "purpose":  "any"
+                  },
+                  {
+                      "src":  "icons/icon-maskable.svg",
+                      "sizes":  "any",
+                      "type":  "image/svg+xml",
+                      "purpose":  "maskable"
+                  }
+              ]
 }
